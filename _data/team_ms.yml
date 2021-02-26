@@ -1,19 +1,4 @@
-# Project team members listed below will appear on the /team page
-
-- name: Kangil Kim
-  role: Professor # Will appear next to name
-  image: assets/img/team/prof.jpg # Can be external link
-  description: > # Can be Markdown
-    email: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
-  email: kangil.kim.01@gmail.com
-  scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
-
-- name: Hoyong Kim
-  role: Ph.D. Candidate
-  image: assets/img/team/hoyong.jpg
-  description: >
-    email: khyong0101*[at]*gmail*[dot]*com
-  email: khyong0101@gmail.com
+# M.S. members listed below will appear on the /team/ms/ page
 
 - name: Sangmin Woo
   role: M.S. Candidate
@@ -71,31 +56,3 @@
   description: >
     email: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
-
-- name: Jiyoon Han
-  role: B.S. Intern (Senior)
-  image: assets/img/team/jiyoon.jpg
-  description: >
-    email: jiyoon2421*[at]*gmail*[dot]*com
-  email: jiyoon2421@gmail.com
-
-- name: HyungRok Jung
-  role: B.S. Intern (Senior)
-  image: assets/img/team/hyungrok.jpg
-  description: >
-    email:
-  email: None
-
-- name: Minchan Kwon
-  role: B.S. Intern (Senior)
-  image: assets/img/team/minchan.jpg
-  description: >
-    email:
-  email: None
-
-- name: Dongguk Si
-  role: B.S. Intern (Senior)
-  image: assets/img/team/dongguk.jpg
-  description: >
-    email:
-  email: None

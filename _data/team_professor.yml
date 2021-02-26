@@ -1,0 +1,7 @@
+- name: Kangil Kim
+  role: Professor # Will appear next to name
+  image: assets/img/team/prof.jpg # Can be external link
+  description: > # Can be Markdown
+    email: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
+  email: kangil.kim.01@gmail.com
+  scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao

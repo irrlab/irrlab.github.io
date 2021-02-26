@@ -13,7 +13,7 @@ columns:
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      This project is made with ❤ for open source. See [`_data/footer.yml`](https://github.com/peterdesmet/petridish/blob/master/_data/footer.yml) to customize this text.
+      This site is modified by Juhyeon Nam
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
