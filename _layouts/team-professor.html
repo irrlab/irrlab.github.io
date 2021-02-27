@@ -7,16 +7,16 @@ description: Template for team page
 
 {% for member in site.data.team_professor %}
   <div class="media team-member">
-    <img class="mr-3" src="{{ member.image | relative_url }}">
+<!--    <img class="mr-3" src="{{ member.image | relative_url }}">-->
     <div class="media-body">
-      <h5 id="{{ member.name | strip | url_encode }}">
+      <img class="mr-3" src="{{ member.image | relative_url }}" height="150">
+      <br/><br/>
+      <h3 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.role %}
         <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
-      </h5>
-
-      {{ member.description | markdownify }}
+      </h3>
 
       <ul class="list-inline">
         {% if member.orcid %}
@@ -55,6 +55,9 @@ description: Template for team page
         </li>
         {% endif %}
       </ul>
+
+      {{ member.description | markdownify }}
+
     </div>
   </div>
 {% endfor %}

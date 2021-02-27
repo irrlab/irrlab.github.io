@@ -7,7 +7,6 @@ description: Template for team page
 
 {% for member in site.data.team_alumni %}
   <div class="media team-member">
-    <img class="mr-3" src="{{ member.image | relative_url }}">
     <div class="media-body">
       <h5 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}

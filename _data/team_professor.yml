@@ -1,7 +1,96 @@
 - name: Kangil Kim
   role: Professor # Will appear next to name
   image: assets/img/team/prof.jpg # Can be external link
-  description: > # Can be Markdown
-    email: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
   email: kangil.kim.01@gmail.com
   scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
+  description: > # Can be Markdown
+    Assistant Professor,<br/>
+    School of Electrical Engineering & Computer Science,<br/>
+    Gwangju Institute of Science and Technology(GIST)<br/><br/>
+    email: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr<br/>
+    <br/>
+
+    #### Research Interest
+
+    I am interested in generally or widely applicable intelligence model representation, optimization and regularization, model complexity, probabilistic and geometric analysis.<br/>
+    <br/>
+
+    #### Research Area (keyword)
+
+    artificial intelligence, machine learning, evolutionary computation, neural network, probabilistic graphical model, statistical relation learning, logic and grammar model, genetic programming, natural language processing<br/>
+    <br/>
+
+    #### Education
+
+    **2012** Ph.D in Computer Science and Engineering, SNU<br/>
+    **2006** B.S. in Computer Science, KAIST<br/>
+    <br/>
+
+    #### Experience
+
+    **2019~present** Assistant Professor, GIST, EECS<br/>
+    **2016~2019** Assistant Professor, KU, CSE<br/>
+    **2013~2016** Senior Researcher, ETRI, AI and NLP<br/>
+    **2012~2013** Postdoc Researcher, SNU, Structural Complexity Lab<br/>
+    **2011** Visiting Researcher, UPM, Artificial Intelligence Group<br/>
+    **2008** Research Intern, NII<br/>
+    <br/>
+
+    #### Publications
+
+    links: [google scholar](https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao), [research gate](https://www.researchgate.net/profile/Kangil-Kim)<br/>
+    <br/>
+
+    #### Project (led or deeply involved)
+
+    - Explicit knowledge representation interacting with general neural networks (GIST)<br/>
+
+    - Analysis of impact of subcost random switching in neural networks (KU)<br/>
+
+    - Analysis of temporal sensitivity of regularization for recurrent neural network with long-short term memory (KU)<br/>
+
+    - Error condition detection for 3D-printing using deep feedfowrad network (KU)<br/>
+
+    - Stability analysis of recurrent neural networks for long term forecasting in environmental problems (KU)<br/>
+
+    - Geometric analysis for neural network regularization (KU)<br/>
+
+    - Recurrent neural networks with long-short term memory for machine translation (ETRI)<br/>
+
+    - Neural networks for syntax analysis (ETRI)<br/>
+
+    - Statistical modeling for machine translation (ETRI)<br/>
+
+    - Large-size modeling to predict water quality using genetic programming (SNU)<br/>
+
+    - Probabilistic bias analysis of formal grammar models in estimation of distribution algorithm in genetic programming (SNU)<br/>
+
+    - Probabilistic bias analysis of structured graphical models in estimation of distribution algorithm in genetic programming (SNU)<br/>
+
+    - Search optimal graph structure (NII)<br/>
+    <br/>
+
+
+    #### Referee Service
+
+    IEEE Transactions on Evolutionary Computation<br/>
+    IEEE Transactions on Neural Network and Learning Systems<br/>
+    IEEE Transactions on Audio, Speech and Language Processing<br/>
+    IEEE Access<br/>
+    Expert Systems With Applications<br/>
+    KSII Transactions on Internet and Information Systems<br/>
+    IEIE Transactions on Smart Processing and Computing<br/>
+    ETRI Journal<br/>
+    Transactions on Asian and Low-Resource Language Information Processing<br/>
+    <br/>
+
+    ##### Acronyms
+
+    GIST (Gwangju Institute of Science and Technology, Korea)<br/>
+    ETRI (Electronics and Telecommunications Research Institute, Korea)<br/>
+    UPM (Polytechnic University of Madrid, Spain)<br/>
+    SNU (Seoul National University, Korea)<br/>
+    NII (National Institute of Informatics, Japan)<br/>
+
+
+
