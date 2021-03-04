@@ -2,21 +2,25 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: Team
-  href: /team/
+- text: Projects
+  href: /projects/
+- text: Publications
+  href: /publications/
+- text: People
+  href: /people/
   menu:
   - text: ALL
-    href: /team/
+    href: /people/
   - text: Professor
-    href: /team/professor/
+    href: /people/professor/
   - text: Ph.D.
-    href: /team/phd/
+    href: /people/phd/
   - text: M.S.
-    href: /team/ms/
+    href: /people/ms/
   - text: B.S.
-    href: /team/bs/
+    href: /people/bs/
   - text: Alumni
-    href: /team/alumni/
+    href: /people/alumni/
 - text: Courses
   href: /courses/
 - text: News
