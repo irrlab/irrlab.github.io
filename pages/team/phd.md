@@ -1,8 +1,8 @@
 ---
 layout: team-phd
-title: Team
+title: People
 description: Who we are
 background: /assets/img/Library_background.jpg
-permalink: /team/phd/
+permalink: /people/phd/
 ---
 

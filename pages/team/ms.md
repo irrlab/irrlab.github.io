@@ -1,7 +1,7 @@
 ---
 layout: team-ms
-title: Team
+title: People
 description: Who we are
 background: /assets/img/Library_background.jpg
-permalink: /team/ms/
+permalink: /people/ms/
 ---

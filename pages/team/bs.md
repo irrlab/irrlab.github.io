@@ -1,8 +1,8 @@
 ---
 layout: team-bs
-title: Team
+title: People
 description: Who we are
 background: /assets/img/Library_background.jpg
-permalink: /team/bs/
+permalink: /people/bs/
 ---
 

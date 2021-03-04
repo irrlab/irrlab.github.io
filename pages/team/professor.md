@@ -1,7 +1,7 @@
 ---
 layout: team-professor
-title: Team
+title: People
 description: Who we are
 background: /assets/img/Library_background.jpg
-permalink: /team/professor/
+permalink: /people/professor/
 ---
