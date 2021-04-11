@@ -6,10 +6,6 @@ background: /assets/img/GIST_background.jpg
 permalink: /
 ---
 
-{: .alert .alert-info}
-We are currently looking for self-motivated students for Intern/Master/PhD/post-doctorate researchers. (2020.11.12.)
-(send an [e-mail](mailto:))
-
 # Our current research goal
 How to build a single accumulative intelligence for more general and wider problems?
 
