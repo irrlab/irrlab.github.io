@@ -6,12 +6,23 @@ background: /assets/img/GIST_background.jpg
 permalink: /
 ---
 
-# Our current research goal
+## Vision and Research Area
+---
 How to build a single accumulative intelligence for more general and wider problems?
 
-# Previous research
-**Main Interest**: Analysis of various intelligence model representations, optimization, search, model complexity, regularization, probabilistic and geometric behavior
+![Main page img](assets/img/Lab_Vision.png)
+*modified at Jun 23, 2021*
 
-**Fundamental Research**: estimation of distribution algorithm, genetic programming, probabilistic formal grammar model, ant colony optimization, neural networks, recurrent neural networks, feedforward neural network, memory-based neural networks, knowledge representation/embedding/injection/accumulation
 
-**Practical Research**: Machine Translation, Syntax Analysis, Question Answering, Knowledge Representation, Time Series Forecasting in Environmental problems, 3D-printing image classification
+## Research Infra
+---
+**1. Researchers**
+- 15+ Ph.D, M.Sc. students, and B.Sc. students
+
+**2. Computing Infra**
+- IRR Lab private server room and servers
+- GIST AI Graduate School Servers
+- GIST AI Research Center Servers
+
+**3. Funding**
+![fundings_logo](assets/img/Funding.png)

@@ -1,0 +1,54 @@
+---
+layout: base
+description: Template for publications
+---
+
+{{ content }}
+
+{% for publication in site.data.publication %}
+  <h5 id="{{ publication.title | strip | url_encode }}">
+    {{ publication.title }}
+    {% if publication.where %}
+    <small class="text-muted">| {{ publication.where }}</small>
+    {% endif %}
+  </h5>
+
+  <div class="media publication-paper">
+    <img class="mr-3" src="{{ publication.image | relative_url }}">
+    <div class="media-body">
+      <ul class="list-inline">
+        {{ publication.description | markdownify }}
+
+        {% if publication.question %}
+        <li class="list-item">
+          <b>Question: <span class="notbold">{{ publication.question }}<span/><b/>
+        </li>
+        {% endif %}
+
+        {% if publication.idea %}
+        <li class="list-item">
+          <b>Idea: <span class="notbold">{{ publication.idea }}<span/><b/>
+        </li>
+        {% endif %}
+
+        {% if publication.domains %}
+        <li class="list-item">
+          <b>Domains: <span class="notbold">{{ publication.domains }}</span></b>
+        </li>
+        {% endif %}
+
+        {% if publication.models %}
+        <li class="list-item">
+          <b>Models: <span class="notbold">{{ publication.models }}</span></b>
+        </li>
+        {% endif %}
+
+        {% if publication.link %}
+        <li class="list-inline-item">
+          <b>Link: <a class="notbold" href="{{ publication.link }}">{{ publication.link-name }}</a></b>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}

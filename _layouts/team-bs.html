@@ -5,7 +5,8 @@ description: Template for team page
 
 {{ content }}
 
-{% for member in site.data.team_bs %}
+{% for member in site.data.team %}
+  {% if member.role == 'Undergrad. Intern' %}
   <div class="media team-member">
     <img class="mr-3" src="{{ member.image | relative_url }}">
     <div class="media-body">
@@ -57,5 +58,6 @@ description: Template for team page
       </ul>
     </div>
   </div>
+  {% endif %}
 {% endfor %}
 

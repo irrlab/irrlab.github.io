@@ -1,7 +1,7 @@
 ---
 layout: team-bs
 title: People
-description: Who we are
+description: B.S.
 background: /assets/img/Library_background.jpg
 permalink: /people/bs/
 ---

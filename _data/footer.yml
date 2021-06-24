@@ -5,11 +5,8 @@
 columns:
   - description:
     links:
-    - text: Gwangju Institute of Science and Technology
+    - text: AI Graduate School, GIST
       href: https://ai.gist.ac.kr/ai/
-      new_window: true
-    - text: Name of project partner 2
-      href: http://example.com
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown

@@ -1,0 +1,11 @@
+# Publications list
+
+- title: 'What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection'
+  where: Arxiv # Will appear next to the title
+  image: assets/img/publication/20210620_Demo.png # Can be external link
+  question: How to extract long-term relation better from a video?
+  idea: directly proposing a temporal span over many image frames
+  domains: CIFAR-10, CIFAR-100, ...
+  models: graph convolutional network, ...
+  link-name: Arxiv 2021
+  link: https://arxiv.org/
