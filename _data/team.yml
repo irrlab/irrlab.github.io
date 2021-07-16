@@ -18,9 +18,8 @@
 - name: Sangmin Woo
   role: M.S. Candidate
   image: assets/img/team/sangmin.jpg
-  description: |
-    Research Interest: High-level Visual Understanding
-    email: shmwoo9395*[at]*gmail*[dot]*com / shmwoo9395*[at]*gist*[dot]*ac*[dot]*kr
+  description: >
+    **Research Interest**: High-level Visual Understanding
   email: shmwoo9395@gmail.com
   link: https://sangminwoo.github.io
   github: sangminwoo
@@ -30,31 +29,31 @@
   role: M.S. Candidate
   image: assets/img/team/jinwook.jpg
   description: >
-    email: jinwookpark2296*[at]*gmail*[dot]*com
+    **email**: jinwookpark2296*[at]*gmail*[dot]*com
 
 - name: HeeJun Jung
   role: M.S. Candidate
   image: assets/img/team/heejun.jpg
   description: >
-    email: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
+    **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
 
 - name: DoYeon Kim
   role: M.S. Candidate
   image: assets/img/team/doyeon.jpg
   description: >
-    email: Doyeon.18.Kim*[at]*gmail*[dot]*com
+    **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
 
 - name: HeeSeung Jeong
   role: M.S. Candidate
   image: assets/img/team/heeseung.jpg
   description: >
-    email: heesng.jung*[at]*gmail*[dot]*com
+    **email**: heesng.jung*[at]*gmail*[dot]*com
 
 - name: Juhyeon Nam
   role: M.S. Candidate
   image: assets/img/team/juhyeon.jpg
   description: >
-    email: harryjhnam*[at]*gmail*[dot]*com / harryjhnam*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: harryjhnam*[at]*gmail*[dot]*com / harryjhnam*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
   email: harryjhnam@gm.gist.ac.kr
   link: https://harryjhnam.github.io
   github: harryjhnam
@@ -64,40 +63,40 @@
   role: M.S. Candidate
   image: assets/img/team/ilmin.jpg
   description: >
-    email: kangilmin0325*[at]*gmail*[dot]*com
+    **email**: kangilmin0325*[at]*gmail*[dot]*com
   email: kangilmin0325@gmail.com
 
 - name: Semi Lee
   role: M.S. Candidate
   image: assets/img/team/semi.jpg
   description: >
-    email: leesemi0719*[at]*gmail*[dot]*com
+    **email**: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
 
 - name: Jiyoon Han
   role: Undergrad. Intern
   image: assets/img/team/jiyoon.jpg
   description: >
-    email: jiyoon2421*[at]*gmail*[dot]*com
+    **email**: jiyoon2421*[at]*gmail*[dot]*com
   email: jiyoon2421@gmail.com
 
 - name: HyungRok Jung
   role: Undergrad. Intern
   image: assets/img/team/hyungrok.jpg
   description: >
-    email:
+    **email**:
   email: None
 
 - name: Minchan Kwon
   role: Undergrad. Intern
   image: assets/img/team/minchan.jpg
   description: >
-    email:
+    **email**:
   email: None
 
 - name: Dongguk Si
   role: Undergrad. Intern
   image: assets/img/team/dongguk.jpg
   description: >
-    email:
+    **email**:
   email: None

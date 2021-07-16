@@ -14,14 +14,15 @@ description: Template for publications
   </h5>
 
   <div class="media publication-paper">
-    <img class="mr-5" src="{{ publication.image | relative_url }}">
+    <img class="mr-3" src="{{ publication.image | relative_url }}" height="280" width="180">
     <div class="media-body">
       <ul class="list-inline">
         {{ publication.description | markdownify }}
 
         {% if publication.abstract %}
         <li class="list-item">
-          <b>Abstract: <span class="notbold">{{ publication.abstract }}<span/><b/>
+          <summary><b>Abstract<b/></summary>
+          <p><span class="notbold">{{ publication.abstract }}<span/></p>
         </li>
         {% endif %}
 
@@ -37,15 +38,15 @@ description: Template for publications
         </li>
         {% endif %}
 
-        {% if publication.domains %}
+        {% if publication.dataset %}
         <li class="list-item">
-          <b>Domains: <span class="notbold">{{ publication.domains }}</span></b>
+          <b>Dataset: <span class="notbold">{{ publication.dataset }}</span></b>
         </li>
         {% endif %}
 
-        {% if publication.models %}
+        {% if publication.method %}
         <li class="list-item">
-          <b>Models: <span class="notbold">{{ publication.models }}</span></b>
+          <b>Method: <span class="notbold">{{ publication.method }}</span></b>
         </li>
         {% endif %}
 
