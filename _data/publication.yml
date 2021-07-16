@@ -1,11 +1,26 @@
 # Publications list
 
 - title: 'What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection'
-  where: Arxiv # Will appear next to the title
-  image: assets/img/publication/20210620_Demo.png # Can be external link
-  question: How to extract long-term relation better from a video?
-  idea: directly proposing a temporal span over many image frames
-  domains: CIFAR-10, CIFAR-100, ...
-  models: graph convolutional network, ...
+  where: # Will appear next to the title
+  image: assets/img/publication/sangmin_vidvrd.png # Can be external link
+  abstract: Identifying relations between objects is central to understanding the scene. While several works have been proposed for relation modeling in the image domain, there have been many constraints in the video domain due to challenging dynamics of spatio-temporal interactions (e.g., Between which objects are there an interaction? When do relations occur and end?). To date, two representative methods have been proposed to tackle Video Visual Relation Detection (VidVRD) - segment-based and window-based. We first point out the limitations these two methods have and propose Temporal Span Proposal Network (TSPN), a novel method with two advantages in terms of efficiency and effectiveness. 1) TSPN tells what to look - it sparsifies relation search space by scoring relationness (i.e., confidence score for the existence of a relation between pair of objects) of object pair. 2) TSPN tells when to look - it leverages the full video context to simultaneously predict the temporal span and categories of the entire relations. TSPN demonstrates its effectiveness by achieving new state-of-the-art by a significant margin on two VidVRD benchmarks (ImageNet-VidVDR and VidOR) while also showing lower time complexity than existing methods - in particular, twice as efficient as a popular segment-based approach.
+  # question: How to extract long-term relation better from a video?
+  # idea: directly proposing a temporal span over many image frames
+  # domains: CIFAR-10, CIFAR-100, ...
+  # models: graph convolutional network, ...
   link-name: Arxiv 2021
-  link: https://arxiv.org/
+  link: https://arxiv.org/abs/2107.07154
+  
+- title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
+  where: Arxiv # Will appear next to the title
+  image: assets/img/publication/sangmin_sgg.png # Can be external link
+  abstract: In this work, we seek new insights into the underlying challenges of the Scene Graph Generation (SGG) task. Quantitative and qualitative analysis of the Visual Genome dataset implies 1) Ambiguity - even if inter-object relationship contains the same object (or predicate), they may not be visually or semantically similar, 2) Asymmetry - despite the nature of the relationship that embodied the direction, it was not well addressed in previous studies, and 3) Higher-order contexts - leveraging the identities of certain graph elements can help to generate accurate scene graphs. Motivated by the analysis, we design a novel SGG framework, Local-to-Global Interaction Networks (LOGIN). Locally, interactions extract the essence between three instances - subject, object, and background - while baking direction awareness into the network by constraining the input order. Globally, interactions encode the contexts between every graph components -- nodes and edges. Also we introduce Attract & Repel loss which finely adjusts predicate embeddings. Our framework enables predicting the scene graph in a local-to-global manner by design, leveraging the possible complementariness. To quantify how much LOGIN is aware of relational direction, we propose a new diagnostic task called Bidirectional Relationship Classification (BRC). We see that LOGIN can successfully distinguish relational direction than existing methods (in BRC task) while showing state-of-the-art results on the Visual Genome benchmark (in SGG task).
+  link-name: Arxiv 2021
+  link: https://arxiv.org/abs/2106.08543
+
+- title: 'Revisiting Dropout: Escaping Pressure for Training NeuralNetworks with Multiple Costs'
+  where: Electronics # Will appear next to the title
+  image: assets/img/publication/sangmin_costout.png # Can be external link
+  abstract: A common approach to jointly learn multiple tasks with a shared structure is to optimize the model with a combined landscape of multiple sub-costs. However, gradients derived from each sub-cost often conflicts in cost plateaus, resulting in a subpar optimum. In this work, we shed light on such gradient conflict challenges and suggest a solution named Cost-Out, which randomly drops the sub-costs for each iteration. We provide the theoretical and empirical evidence of the existence of escaping pressure induced by the Cost-Out mechanism. While simple, the empirical results indicate that the proposed method can enhance the performance of multi-task learning problems, including two-digit image classification sampled from MNIST dataset and machine translation tasks for English from and to French, Spanish, and German WMT14 datasets.
+  link-name: Electronics
+  link: https://www.mdpi.com/2079-9292/10/9/989
