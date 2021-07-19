@@ -14,7 +14,7 @@ description: Template for publications
   </h5>
 
   <div class="media publication-paper">
-    <img class="mr-3" src="{{ publication.image | relative_url }}" style="max-width: 40%; height: auto">
+    <img class="mr-3" src="{{ publication.image | relative_url }}">
     <div class="media-body">
       <ul class="list-inline">
         {{ publication.description | markdownify }}

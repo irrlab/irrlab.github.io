@@ -21,9 +21,9 @@
   margin-bottom: $grid-gutter-width;
 
   & > img {
-    height: 150px;
-    width: 150px;
-    border: 3px solid $gray-200;
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
   }
 }
 
