@@ -8,3 +8,17 @@
 
 - name: Somi Jin
   role: Undergrad. Intern
+
+- name: Jiyoon Han
+  role: Undergrad. Intern
+  image: assets/img/team/jiyoon.jpg
+  description: >
+    **email**: jiyoon2421*[at]*gmail*[dot]*com
+  email: jiyoon2421@gmail.com
+
+- name: Hyungrok Jung
+  role: Undergrad. Intern
+  image: assets/img/team/hyungrok.jpg
+  description: >
+    **email**:
+  email: None

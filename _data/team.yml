@@ -31,19 +31,19 @@
   description: >
     **email**: jinwookpark2296*[at]*gmail*[dot]*com
 
-- name: HeeJun Jung
+- name: Heejun Jung
   role: M.S. Candidate
   image: assets/img/team/heejun.jpg
   description: >
     **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
 
-- name: DoYeon Kim
+- name: Doyeon Kim
   role: M.S. Candidate
   image: assets/img/team/doyeon.jpg
   description: >
     **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
 
-- name: HeeSeung Jeong
+- name: Heeseung Jeong
   role: M.S. Candidate
   image: assets/img/team/heeseung.jpg
   description: >
@@ -72,20 +72,6 @@
   description: >
     **email**: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
-
-- name: Jiyoon Han
-  role: Undergrad. Intern
-  image: assets/img/team/jiyoon.jpg
-  description: >
-    **email**: jiyoon2421*[at]*gmail*[dot]*com
-  email: jiyoon2421@gmail.com
-
-- name: HyungRok Jung
-  role: Undergrad. Intern
-  image: assets/img/team/hyungrok.jpg
-  description: >
-    **email**:
-  email: None
 
 - name: Minchan Kwon
   role: Undergrad. Intern
