@@ -3,22 +3,26 @@
 - name: Chanyoung Sohn
   role: M.S.
   description: >
-    한화 테크윈<br/>
-    **Research Field**: Computer Vision, Line Chart Understanding
+    **Current Position**: 한화 테크윈</br>
+    **Research Interest**: Computer Vision, Line Chart Understanding
+  email: None
 
 - name: Somi Jin
   role: Undergrad. Intern
+  description: >
+    **Current Position**:
+  email: None
 
 - name: Jiyoon Han
   role: Undergrad. Intern
   image: assets/img/team/jiyoon.jpg
   description: >
-    **email**: jiyoon2421*[at]*gmail*[dot]*com
+    **Current Position**: 
   email: jiyoon2421@gmail.com
 
 - name: Hyungrok Jung
   role: Undergrad. Intern
   image: assets/img/team/hyungrok.jpg
   description: >
-    **email**:
+    **Current Position**: 
   email: None
