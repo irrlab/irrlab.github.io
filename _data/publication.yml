@@ -21,8 +21,9 @@
   dataset: ImageNet-VidVRD, VidOR
   method: Temporal Span Proposal Network (TSPN)
   keywords: Video Visual Relation Detection (VidVRD), Spatio-temporal Video Understanding, Temporal Relation Localization
-  link-name: Arxiv 2021
-  link: https://arxiv.org/abs/2107.07154
+  paper: https://arxiv.org/abs/2107.07154
+  code: https://github.com/sangminwoo/Temporal-Span-Proposal-Network-VidVRD
+  youtube: None
   
 - title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
   where: Arxiv # Will appear next to the title
@@ -46,8 +47,9 @@
   dataset: Visual Genome
   method: Local-to-Global Interaction Network (LOGIN)
   keywords: Scene Graph Generation (SGG), Scene Understanding, Relationship Detection, Bidirectional Relationship Classification
-  link-name: Arxiv 2021
-  link: https://arxiv.org/abs/2106.08543
+  paper: https://arxiv.org/abs/2106.08543
+  code: https://github.com/sangminwoo/Local-to-Global-Interaction-Networks-SGG
+  youtube: None
 
 - title: 'Revisiting Dropout: Escaping Pressure for Training NeuralNetworks with Multiple Costs'
   where: Electronics # Will appear next to the title
@@ -64,5 +66,6 @@
   dataset: MNIST, WMT14
   method: Cost-Out
   keywords: Multitask Learning, Gradient Conflict, Escaping Pressure, Dropout
-  link-name: Electronics 2021
-  link: https://www.mdpi.com/2079-9292/10/9/989
+  paper: https://www.mdpi.com/2079-9292/10/9/989
+  code: https://github.com/sangminwoo/Cost-Out
+  youtube: None

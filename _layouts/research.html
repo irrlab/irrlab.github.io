@@ -58,9 +58,20 @@ description: Template for publications
         </li>
         {% endif %}
 
-        {% if publication.link %}
+        {% if publication.paper %}
         <li class="list-inline-item">
-          <b>Link: <a class="notbold" href="{{ publication.link }}">{{ publication.link-name }}</a></b>
+          <b>
+            Link:
+            <a class="notbold" href="{{ publication.paper }}"><i class="fa-solid fa-book"></i></a>
+
+            {% if publication.code %}
+            <a class="notbold" href="{{ publication.code }}"><i class="fa fa-github"></i></a>
+            {% endif %}
+
+            {% if publication.youtube %}
+            <a class="notbold" href="{{ publication.youtube }}"><i class="fa fa-youtube"></i></a>
+            {% endif %}
+          </b>
         </li>
         {% endif %}
       </ul>
