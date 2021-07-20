@@ -57,21 +57,26 @@ description: Template for publications
           <b>Keywords: <span class="notbold">{{ publication.keywords }}</span></b>
         </li>
         {% endif %}
+      </ul>
+
+      <ul class="list-inline">
+        <b>Links: </b>
 
         {% if publication.paper %}
         <li class="list-inline-item">
-          <b>
-            Link:
-            <a class="notbold" href="{{ publication.paper }}"><i class="fa-solid fa-book"></i></a>
+          <a class="notbold" href="{{ publication.paper }}"><i class="fa fa-book"></i></a>
+        </li>
+        {% endif %}
 
-            {% if publication.code %}
-            <a class="notbold" href="{{ publication.code }}"><i class="fa fa-github"></i></a>
-            {% endif %}
+        {% if publication.code %}
+        <li class="list-inline-item">
+          <a class="notbold" href="{{ publication.code }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
 
-            {% if publication.youtube %}
-            <a class="notbold" href="{{ publication.youtube }}"><i class="fa fa-youtube"></i></a>
-            {% endif %}
-          </b>
+        {% if publication.youtube %}
+        <li class="list-inline-item">
+          <a class="notbold" href="{{ publication.youtube }}"><i class="fa fa-youtube"></i></a>
         </li>
         {% endif %}
       </ul>
