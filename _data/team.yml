@@ -15,17 +15,6 @@
     **email**: khyong0101*[at]*gmail*[dot]*com
   email: khyong0101@gmail.com
 
-- name: Sangmin Woo
-  role: M.S. Candidate
-  image: assets/img/team/sangmin.jpg
-  description: >
-    **Research Interest**: High-level Visual Understanding<br/>
-    **email**: shmwoo9395*[at]*gmail*[dot]*com / shmwoo9395*[at]*gist*[dot]*ac*[dot]*kr
-  email: shmwoo9395@gmail.com
-  link: https://sangminwoo.github.io
-  github: sangminwoo
-  scholar: https://scholar.google.com/citations?user=5hvoV1UAAAAJ&hl=ko
-
 - name: Jinwook Park
   role: M.S. Candidate
   image: assets/img/team/jinwook.jpg

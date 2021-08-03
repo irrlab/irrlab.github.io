@@ -23,7 +23,7 @@
   keywords: Video Visual Relation Detection (VidVRD), Spatio-temporal Video Understanding, Temporal Relation Localization
   paper: https://arxiv.org/abs/2107.07154
   code: https://github.com/sangminwoo/Temporal-Span-Proposal-Network-VidVRD
-  youtube: None
+  youtube: https://www.youtube.com/watch?v=VJcHdtz1sCo
   
 - title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
   where: Arxiv # Will appear next to the title
@@ -49,9 +49,9 @@
   keywords: Scene Graph Generation (SGG), Scene Understanding, Relationship Detection, Bidirectional Relationship Classification
   paper: https://arxiv.org/abs/2106.08543
   code: https://github.com/sangminwoo/Local-to-Global-Interaction-Networks-SGG
-  youtube: None
+  youtube: https://www.youtube.com/watch?v=dvyPCQqU-8E
 
-- title: 'Revisiting Dropout: Escaping Pressure for Training NeuralNetworks with Multiple Costs'
+- title: 'Revisiting Dropout: Escaping Pressure for Training Neural Networks with Multiple Costs'
   where: Electronics # Will appear next to the title
   image: assets/img/publication/sangmin_costout.png # Can be external link
   abstract: >
