@@ -1,5 +1,16 @@
 # Publications list
 
+- title: 'Learning from Matured Dumb Teacher for Fine Generalization'
+  where: Arxiv # Will appear next to the title --> IEEE TNNLS
+  image: assets/img/publication/HeeSeung_mDT-KD.png # Can be external link
+  abstract: >
+    The flexibility of decision boundaries in neural networks that are unguided by training data is a well-known problem typically resolved with generalization methods. A surprising result from recent knowledge distillation (KD) literature is that random, untrained, and equally structured teacher networks can also vastly improve generalization performance. It raises the possibility of existence of undiscovered assumptions useful for generalization on an uncertain region. In this paper, we shed light on the assumptions by analyzing decision boundaries and confidence distributions of both simple and KD-based generalization methods. Assuming that a decision boundary exists to represent the most general tendency of distinction on an input sample space (i.e., the simplest hypothesis), we show the various limitations of methods when using the hypothesis. To resolve these limitations, we propose matured dumb teacher based KD, conservatively transferring the hypothesis for generalization of the student without massive destruction of trained information. In practical experiments on feed-forward and convolution neural networks for image classification tasks on MNIST, CIFAR-10, and CIFAR-100 datasets, the proposed method shows stable improvement to the best test performance in the grid search of hyperparameters. The analysis and results imply that the proposed method can provide finer generalization than existing methods.
+  idea: Using the simplest hypothese to generalize the model only with given training data.
+  dataset: MNIST, CIFAR-10, CIFAR-100
+  method: matured Dumb Teacher based Knowledge Distillation (mDT-KD)
+  keywords: Generalization, Self-knowledge distillation, Neural networks, Occam’s Razor, Confidence distribution, Decision boundary
+  paper: https://arxiv.org/abs/2108.05776
+
 - title: 'What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection'
   where: Arxiv # Will appear next to the title
   image: assets/img/publication/sangmin_vidvrd.png # Can be external link
