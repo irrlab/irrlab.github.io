@@ -33,11 +33,14 @@
   description: >
     **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
 
-- name: Heeseung Jeong
+- name: HeeSeung Jeong
   role: M.S. Candidate
   image: assets/img/team/heeseung.jpg
   description: >
     **email**: heesng.jung*[at]*gmail*[dot]*com
+  email: heesng.jung@gmail.com
+  link: https://he1ght.github.io
+  github: he1ght
 
 - name: Juhyeon Nam
   role: M.S. Candidate
