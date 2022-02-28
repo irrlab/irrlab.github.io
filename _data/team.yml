@@ -20,18 +20,21 @@
   image: assets/img/team/jinwook.jpg
   description: >
     **email**: jinwookpark2296*[at]*gmail*[dot]*com
+  email: jinwookpark2296@gmail.com
 
 - name: Heejun Jung
   role: M.S. Candidate
   image: assets/img/team/heejun.jpg
   description: >
     **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
+  email: jungheejun93@gm.gist.ac.kr
 
 - name: Doyeon Kim
   role: M.S. Candidate
   image: assets/img/team/doyeon.jpg
   description: >
     **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
+  email: Doyeon.18.Kim@gmail.com
 
 - name: HeeSeung Jeong
   role: M.S. Candidate
