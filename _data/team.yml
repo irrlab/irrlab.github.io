@@ -90,3 +90,17 @@
   description: >
     **email**: bonheur60*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
   email: bonheur60@gm.gist.ac.kr
+
+- name: Mingi Hong
+  role: M.S. Candidate
+  image: assets/img/team/mingi.jpg
+  description: >
+    **email**: alsrl5940*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+  email: alsrl5940@gm.gist.ac.kr
+
+- name: Jaehyoung Jeong
+  role: M.S. Candidate
+  image: assets/img/team/jaehyoung.jpg
+  description: >
+    **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+  email: jaehyoung98@gm.gist.ac.kr
