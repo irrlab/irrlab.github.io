@@ -69,3 +69,17 @@
   description: >
     **email**: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
+
+- name: Junsik Kim
+  role: M.S. Candidate
+  image: assets/img/team/junsik.jpg
+  description: >
+    **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+  email: junsikkim@gm.gist.ac.kr
+
+  # - name: Semi Lee
+  # role: M.S. Candidate
+  # image: assets/img/team/semi.jpg
+  # description: >
+  #   **email**: leesemi0719*[at]*gmail*[dot]*com
+  # email: leesemi0719@gmail.com
