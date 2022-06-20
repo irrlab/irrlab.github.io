@@ -52,7 +52,7 @@
   youtube: https://www.youtube.com/watch?v=VJcHdtz1sCo
   
 - title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
-  where: Arxiv # Will appear next to the title
+  where: 	IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
   image: assets/img/publication/sangmin_sgg.png # Can be external link
   abstract: >
     In this work, we seek new insights into the underlying challenges of the Scene Graph Generation (SGG) task.

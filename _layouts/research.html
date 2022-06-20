@@ -9,7 +9,9 @@ description: Template for publications
   <h5 id="{{ publication.title | strip | url_encode }}">
     {{ publication.title }}
     {% if publication.where %}
-    <small class="text-muted">| {{ publication.where }}</small>
+    <!-- chnage format -->
+    <!-- <small class="text-muted">| {{ publication.where }}</small> -->
+    <p><small class="text-muted">{{ publication.where }}</small></p>
     {% endif %}
   </h5>
 
