@@ -51,3 +51,13 @@
   description: >
     **email**:
   email: None
+  
+- name: HeeSeung Jung
+  role: M.S.
+  image: assets/img/team/heeseung.jpg
+  description: >
+    **Current Position**: Samsung Research<br/>
+  email: heesng.jung@gmail.com
+  link: https://he1ght.github.io
+  github: he1ght
+  scholar: https://scholar.google.co.kr/citations?user=_uo2d1wAAAAJ&hl=ko&oi=ao
