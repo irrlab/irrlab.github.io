@@ -51,3 +51,12 @@ defaults:
       path: ""
     values:
       layout: "default"                 # Only required for Petridish website, implied for sites using a theme
+
+
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-C0MHLDNGV3"
+    anonymize_ip         : # true, false (default)
