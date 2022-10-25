@@ -4,7 +4,7 @@
   email: kangil.kim.01@gmail.com
   scholar: https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao
   description: > # Can be Markdown
-    Assistant Professor,<br/>
+    Associate Professor,<br/>
     School of Electrical Engineering & Computer Science,<br/>
     Gwangju Institute of Science and Technology(GIST)<br/><br/>
     email: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr<br/>
@@ -12,10 +12,10 @@
 
     #### Research Interest
 
-    I am interested in generally or widely applicable intelligence model representation, optimization and regularization, model complexity, probabilistic and geometric analysis.<br/>
+    generally applicable intelligence model representation, optimization and regularization, model complexity, probabilistic and representation analysis.<br/>
     <br/>
 
-    #### Research Area (keyword)
+    #### Research Area
 
     artificial intelligence, machine learning, evolutionary computation, neural network, probabilistic graphical model, statistical relation learning, logic and grammar model, genetic programming, natural language processing<br/>
     <br/>
@@ -27,8 +27,8 @@
     <br/>
 
     #### Experience
-
-    **2019~present** Assistant Professor, GIST, EECS & AI Graduate School <br/>
+    **2022~present** Associate Professor, GIST, AI Graduate School <br/>
+    **2019~2022** Assistant Professor, GIST, EECS <br/>
     **2016~2019** Assistant Professor, KU, CSE<br/>
     **2013~2016** Senior Researcher, ETRI, AI and NLP<br/>
     **2012~2013** Postdoc Researcher, SNU, Structural Complexity Lab<br/>
@@ -41,42 +41,23 @@
     links: [google scholar](https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao), [research gate](https://www.researchgate.net/profile/Kangil-Kim)<br/>
     <br/>
 
-    #### Project (led or deeply involved)
-
-    - Explicit knowledge representation interacting with general neural networks (GIST)<br/>
-
-    - Analysis of impact of subcost random switching in neural networks (KU)<br/>
-
-    - Analysis of temporal sensitivity of regularization for recurrent neural network with long-short term memory (KU)<br/>
-
-    - Error condition detection for 3D-printing using deep feedfowrad network (KU)<br/>
-
-    - Stability analysis of recurrent neural networks for long term forecasting in environmental problems (KU)<br/>
-
-    - Geometric analysis for neural network regularization (KU)<br/>
-
-    - Recurrent neural networks with long-short term memory for machine translation (ETRI)<br/>
-
-    - Neural networks for syntax analysis (ETRI)<br/>
-
-    - Statistical modeling for machine translation (ETRI)<br/>
-
-    - Large-size modeling to predict water quality using genetic programming (SNU)<br/>
-
-    - Probabilistic bias analysis of formal grammar models in estimation of distribution algorithm in genetic programming (SNU)<br/>
-
-    - Probabilistic bias analysis of structured graphical models in estimation of distribution algorithm in genetic programming (SNU)<br/>
-
-    - Search optimal graph structure (NII)<br/>
+    #### Projects (PI)
+    - Model Analysis
+    **2022~2026** Representation Analysis for Learning Canonicalized Representations ( NRF) <br/> 
+    **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/> 
+    **2016~2016** Improvement of Expression Power of Infinite Probabilistic Context Free Grammar (NRF) <br/>
+    **    ~2016 ** Bias analysis of probabilistic context free grammar models in estimation of distribution algorithm in genetic programming (in PhD program, NRF)<br/>
+    **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/>
+    - Natural Language Processing
+    **2016~2020** Real-time multilingual neural machine translation (ETRI) <br/>
     <br/>
 
-
-    #### Referee Service
-
-    IEEE Transactions on Evolutionary Computation<br/>
+    #### Review Service
     IEEE Transactions on Neural Network and Learning Systems<br/>
+    IEEE Transactions on Evolutionary Computation<br/>
     IEEE Transactions on Audio, Speech and Language Processing<br/>
     Expert Systems With Applications<br/>
+    EMNLP 2022<br/>
     EMNLP 2021<br/>
     <br/>
 
