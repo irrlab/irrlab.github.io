@@ -39,6 +39,39 @@
 
     #### Publications
 
+    - Selected <br/>
+      - S. Woo, J. Noh, and K. Kim. Tackling the challenges in scene graph generation with
+        local-to-global interactions. IEEE Transactions on Neural Networks and Learning
+        Systems, 2022.
+      - O. Kwon, N. Lee, and K. Kim. Improvement of virtual diagnostics performance for
+        plasma density in semiconductor etch equipment using variational auto-encoder.
+        IEEE Transactions on Semiconductor Manufacturing, 35(2):256–265, 2022.
+      - H.-J. Jung, D. Kim, S.-H. Na, and K. Kim. Feature structure distillation for bert
+        transferring. arXiv preprint arXiv:2204.08922, 2022.
+      -  S. Woo, J. Noh, and K. Kim. What and when to look?: Temporal span proposal
+        network for video visual relation detection. arXiv preprint arXiv:2107.07154, 2021.
+      - H. Jung, K. Kim, H. Kim, and J.-H. Shin. Learning from matured dumb teacher
+        for fine generalization. arXiv preprint arXiv:2108.05776, 2021.
+      - O. Kwon, H. G. Kim, M. J. Ham, W. Kim, G.-H. Kim, J.-H. Cho, N. I. Kim,
+        and K. Kim. A deep neural network for classification of melt-pool images in metal
+        additive manufacturing. Journal of Intelligent Manufacturing, 31(2):375–386, 2020.
+      - K. Kim, Y. Jin, S. Nah, and Y.-K. Kim. Center-shared sliding ensemble of neural
+        networks for syntax analysis of natural language. Expert Systems with Applications,
+        83:215–225, 2017.
+      - K. Kim, R. B. McKay, and N. X. Hoai. Recursion-based biases in stochastic gram-
+        mar model genetic programming. IEEE Transactions on Evolutionary Computa-
+        tion, 20(1):81–95, 2016.
+      - K. Kim, Y. Shan, X. H. Nguyen, and R. I. McKay. Probabilistic model building
+        in genetic programming: a critical review. Genetic Programming and Evolvable
+        Machines, 15(2):115–167, 2014.
+      -  K. Kim and R. I. McKay. Stochastic diversity loss and scalability in estimation of
+        distribution genetic programming. IEEE Transactions on Evolutionary Computa-
+        tion, 17(3):301–320, 2013.
+        2 of 4
+
+
+
+    - All <br/>
     links: [google scholar](https://scholar.google.co.kr/citations?user=RZggOtkAAAAJ&hl=ko&oi=ao), [research gate](https://www.researchgate.net/profile/Kangil-Kim)<br/>
     <br/>
 
@@ -48,7 +81,7 @@
     **2022~2026** Representation Analysis for Learning Canonicalized Representations ( NRF) <br/>  
     **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/>  
     **2016~2016** Improvement of Expression Power of Infinite Probabilistic Context Free Grammar (NRF) <br/> 
-    **before 2013 ** Bias analysis of probabilistic context free grammar models in estimation of distribution algorithm in genetic programming (in PhD program, NRF)<br/>
+    **before 2013** Bias analysis of probabilistic context free grammar models in estimation of distribution algorithm in genetic programming (in PhD program, NRF)<br/>
     **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/> 
 
     - Natural Language Processing <br/>
