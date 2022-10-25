@@ -10,10 +10,10 @@ permalink: /
 ## News
 ---
 <!-- Content here would shop up above your list of posts -->
-### Congratulations on the acceptance <br>
-- 22.09.15: regular paper for NeurIPS 2022: "Spherization Layer: Representation Using Only Angles"<br>
-- 22.03.12: regular paper for IEEE TNNLS: "Tackling the Challenges in Scene Graph Generation with <br> Local-to-Global Interactions"<br>
-- 22.03.04: grant proposal for NRF: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning
+#### Congratulations on the acceptance
+- 22.09.15: regular paper for NeurIPS 2022: "Spherization Layer: Representation Using Only Angles"<br/>
+- 22.03.12: regular paper for IEEE TNNLS: "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions"<br/>
+- 22.03.04: grant proposal for NRF: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning <br/>
 
 ## Vision and Research Area
 ---
