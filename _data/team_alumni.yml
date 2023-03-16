@@ -61,3 +61,28 @@
   link: https://he1ght.github.io
   github: he1ght
   scholar: https://scholar.google.co.kr/citations?user=_uo2d1wAAAAJ&hl=ko&oi=ao
+
+- name: Doyeon Kim
+  role: M.S.
+  image: assets/img/team/doyeon.jpg
+  description: >
+    **email**: Doyeon.18.Kim*[at]*gmail*[dot]*com
+  email: Doyeon.18.Kim@gmail.com
+
+- name: Juhyeon Nam
+  role: M.S.
+  image: assets/img/team/juhyeon.jpg
+  description: >
+    **email**: harryjhnam*[at]*gmail*[dot]*com / harryjhnam*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+  email: harryjhnam@gm.gist.ac.kr
+  link: https://harryjhnam.github.io
+  github: harryjhnam
+  twitter: JuhyeonNam
+
+- name: Semi Lee
+  role: M.S.
+  image: assets/img/team/semi.jpg
+  description: >
+    **Current Position**: LG Electronics<br/>
+    **email**: leesemi0719*[at]*gmail*[dot]*com
+  email: leesemi0719@gmail.com

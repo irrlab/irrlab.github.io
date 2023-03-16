@@ -1,58 +1,33 @@
 # Publications list
-
-- title: 'Feature Structure Distillation for BERT Transferring'
-  where: Arxiv
-  image: assets/img/publication/HeeJun_FSD.png
-  abstract: >
-    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference. A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge. To resolve it in BERT transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature, global inter-feature structures. To transfer them, we introduce *feature structure distillation* methods based on the Centered Kernel Alignment, which assigns a consistent value to similar features structures and reveals more informative relations. In particular, a memory-augmented transfer method with clustering is implemented for the global structures. In the experiments on the nine tasks for language understanding of the GLUE dataset, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods. Indeed, the code for the methods is available in <a href="https://github.com/maroo-sky/FSD">this page</a>. 
-  idea: Transfer relation of teacher's knowledge to student.
-  dataset: GLUE
-  method: Feature Structure Distillation (FSD)
-  keywords: Knowledge Distillation, Centered Kernel Alignment, Feature Sturcture, BERT, Natural Language Processing
-  paper: https://arxiv.org/abs/2204.08922
-  code: https://github.com/maroo-sky/FSD
-  youtube: https://www.youtube.com/watch?v=hM5ccfRj4hs
   
-
-- title: 'Learning from Matured Dumb Teacher for Fine Generalization'
-  where: Arxiv # Will appear next to the title --> IEEE TNNLS
-  image: assets/img/publication/HeeSeung_mDT-KD.png # Can be external link
+- title: 'Spherization Layer: Representation Using Only Angles'
+  where: 36th Conference one Neural Information Processing Systems (NeurIPS 2022)
+  image: assets/img/publication/hoyong_sph.png # Can be external link
   abstract: >
-    The flexibility of decision boundaries in neural networks that are unguided by training data is a well-known problem typically resolved with generalization methods. A surprising result from recent knowledge distillation (KD) literature is that random, untrained, and equally structured teacher networks can also vastly improve generalization performance. It raises the possibility of existence of undiscovered assumptions useful for generalization on an uncertain region. In this paper, we shed light on the assumptions by analyzing decision boundaries and confidence distributions of both simple and KD-based generalization methods. Assuming that a decision boundary exists to represent the most general tendency of distinction on an input sample space (i.e., the simplest hypothesis), we show the various limitations of methods when using the hypothesis. To resolve these limitations, we propose matured dumb teacher based KD, conservatively transferring the hypothesis for generalization of the student without massive destruction of trained information. In practical experiments on feed-forward and convolution neural networks for image classification tasks on MNIST, CIFAR-10, and CIFAR-100 datasets, the proposed method shows stable improvement to the best test performance in the grid search of hyperparameters. The analysis and results imply that the proposed method can provide finer generalization than existing methods.
-  author: [HeeSeung Jung, Kangil Kim, Hoyong Kim, Jong-Hun Shin]
-  idea: Using the simplest hypothese to generalize the model only with given training data.
-  dataset: MNIST, CIFAR-10, CIFAR-100
-  method: matured Dumb Teacher based Knowledge Distillation (mDT-KD)
-  keywords: Generalization, Self-knowledge distillation, Neural networks, Occam’s Razor, Confidence distribution, Decision boundary
-  paper: https://arxiv.org/abs/2108.05776
+    In neural network literature, angular similarity between feature vectors is frequently used for interpreting or re-using learned representations.
+    However, the inner product in neural networks partially disperses information over the scales and angles
+of the involved input vectors and weight vectors. 
+    Therefore, when using only angular similarity on representations trained with the inner product, information
+loss occurs in downstream methods, which limits their performance. 
+    In this paper, we proposed the spherization layer to represent all information on angular
+similarity. 
+    The layer 1) maps the pre-activations of input vectors into the specific range of angles, 2) converts the angular coordinates of the vectors to Cartesian coordinates with an additional dimension, and 3) trains decision boundaries from
+hyperplanes, without bias parameters, passing through the origin. 
+    This approach guarantees that representation learning always occurs on the hyperspherical surface
+without the loss of any information unlike other projection-based methods.
+    Furthermore, this method can be applied to any network by replacing an existing layer. 
+    We validate the functional correctness of the proposed method in a toy task, retention ability in well-known image classification tasks, and effectiveness in word analogy test and few-shot learning. 
+    Code is publicly available at https://github.com/GIST-IRR/spherization_layer
+  question: How about learning representations using only the angles and using them on angular similarity?
+  idea: Learn feature representations using only angles.
+  dataset: MNIST, Fashion-MNIST, CIFAR10/100, WikiText, Mini-ImageNet
+  method: Spherization Layer
+  keywords: representation learning, spherization, angular similarity
+  paper: https://openreview.net/pdf?id=OXourTLd9UO
+  code: https://github.com/GIST-IRR/spherization_layer
 
-- title: 'What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection'
-  where: Arxiv # Will appear next to the title
-  image: assets/img/publication/sangmin_vidvrd.png # Can be external link
-  abstract: >
-    Identifying relations between objects is central to understanding the scene.
-    While several works have been proposed for relation modeling in the image domain,
-    there have been many constraints in the video domain due to challenging dynamics of spatio-temporal interactions
-    (e.g., Between which objects are there an interaction? When do relations occur and end?).
-    To date, two representative methods have been proposed to tackle Video Visual Relation Detection (VidVRD) - segment-based and window-based.
-    We first point out the limitations these two methods have and propose Temporal Span Proposal Network (TSPN),
-    a novel method with two advantages in terms of efficiency and effectiveness.
-    1) TSPN tells what to look - it sparsifies relation search space by scoring relationness
-    (i.e., confidence score for the existence of a relation between pair of objects) of object pair.
-    2) TSPN tells when to look - it leverages the full video context to simultaneously predict the temporal span and categories of the entire relations.
-    TSPN demonstrates its effectiveness by achieving new state-of-the-art by a significant margin on two VidVRD benchmarks (ImageNet-VidVDR and VidOR)
-    while also showing lower time complexity than existing methods - in particular, twice as efficient as a popular segment-based approach.
-  question: How can we extract long-term relation better from a video?
-  idea: Directly propose a temporal span over object trajectories.
-  dataset: ImageNet-VidVRD, VidOR
-  method: Temporal Span Proposal Network (TSPN)
-  keywords: Video Visual Relation Detection (VidVRD), Spatio-temporal Video Understanding, Temporal Relation Localization
-  paper: https://arxiv.org/abs/2107.07154
-  code: https://github.com/sangminwoo/Temporal-Span-Proposal-Network-VidVRD
-  youtube: https://www.youtube.com/watch?v=VJcHdtz1sCo
-  
 - title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
-  where: 	IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  where: IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2022)
   image: assets/img/publication/sangmin_sgg.png # Can be external link
   abstract: >
     In this work, we seek new insights into the underlying challenges of the Scene Graph Generation (SGG) task.
@@ -77,8 +52,58 @@
   code: https://github.com/sangminwoo/Local-to-Global-Interaction-Networks-SGG
   youtube: https://www.youtube.com/watch?v=dvyPCQqU-8E
 
+- title: 'Feature Structure Distillation for BERT Transferring'
+  where: Arxiv 2022
+  image: assets/img/publication/HeeJun_FSD.png
+  abstract: >
+    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference. A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge. To resolve it in BERT transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature, global inter-feature structures. To transfer them, we introduce *feature structure distillation* methods based on the Centered Kernel Alignment, which assigns a consistent value to similar features structures and reveals more informative relations. In particular, a memory-augmented transfer method with clustering is implemented for the global structures. In the experiments on the nine tasks for language understanding of the GLUE dataset, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods. Indeed, the code for the methods is available in <a href="https://github.com/maroo-sky/FSD">this page</a>. 
+  idea: Transfer relation of teacher's knowledge to student.
+  dataset: GLUE
+  method: Feature Structure Distillation (FSD)
+  keywords: Knowledge Distillation, Centered Kernel Alignment, Feature Sturcture, BERT, Natural Language Processing
+  paper: https://arxiv.org/abs/2204.08922
+  code: https://github.com/maroo-sky/FSD
+  youtube: https://www.youtube.com/watch?v=hM5ccfRj4hs
+
+- title: 'Learning from Matured Dumb Teacher for Fine Generalization'
+  where: Arxiv 2021 # Will appear next to the title --> IEEE TNNLS
+  image: assets/img/publication/HeeSeung_mDT-KD.png # Can be external link
+  abstract: >
+    The flexibility of decision boundaries in neural networks that are unguided by training data is a well-known problem typically resolved with generalization methods. A surprising result from recent knowledge distillation (KD) literature is that random, untrained, and equally structured teacher networks can also vastly improve generalization performance. It raises the possibility of existence of undiscovered assumptions useful for generalization on an uncertain region. In this paper, we shed light on the assumptions by analyzing decision boundaries and confidence distributions of both simple and KD-based generalization methods. Assuming that a decision boundary exists to represent the most general tendency of distinction on an input sample space (i.e., the simplest hypothesis), we show the various limitations of methods when using the hypothesis. To resolve these limitations, we propose matured dumb teacher based KD, conservatively transferring the hypothesis for generalization of the student without massive destruction of trained information. In practical experiments on feed-forward and convolution neural networks for image classification tasks on MNIST, CIFAR-10, and CIFAR-100 datasets, the proposed method shows stable improvement to the best test performance in the grid search of hyperparameters. The analysis and results imply that the proposed method can provide finer generalization than existing methods.
+  author: [HeeSeung Jung, Kangil Kim, Hoyong Kim, Jong-Hun Shin]
+  idea: Using the simplest hypothese to generalize the model only with given training data.
+  dataset: MNIST, CIFAR-10, CIFAR-100
+  method: matured Dumb Teacher based Knowledge Distillation (mDT-KD)
+  keywords: Generalization, Self-knowledge distillation, Neural networks, Occam’s Razor, Confidence distribution, Decision boundary
+  paper: https://arxiv.org/abs/2108.05776
+
+- title: 'What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection'
+  where: Arxiv 2021 # Will appear next to the title
+  image: assets/img/publication/sangmin_vidvrd.png # Can be external link
+  abstract: >
+    Identifying relations between objects is central to understanding the scene.
+    While several works have been proposed for relation modeling in the image domain,
+    there have been many constraints in the video domain due to challenging dynamics of spatio-temporal interactions
+    (e.g., Between which objects are there an interaction? When do relations occur and end?).
+    To date, two representative methods have been proposed to tackle Video Visual Relation Detection (VidVRD) - segment-based and window-based.
+    We first point out the limitations these two methods have and propose Temporal Span Proposal Network (TSPN),
+    a novel method with two advantages in terms of efficiency and effectiveness.
+    1) TSPN tells what to look - it sparsifies relation search space by scoring relationness
+    (i.e., confidence score for the existence of a relation between pair of objects) of object pair.
+    2) TSPN tells when to look - it leverages the full video context to simultaneously predict the temporal span and categories of the entire relations.
+    TSPN demonstrates its effectiveness by achieving new state-of-the-art by a significant margin on two VidVRD benchmarks (ImageNet-VidVDR and VidOR)
+    while also showing lower time complexity than existing methods - in particular, twice as efficient as a popular segment-based approach.
+  question: How can we extract long-term relation better from a video?
+  idea: Directly propose a temporal span over object trajectories.
+  dataset: ImageNet-VidVRD, VidOR
+  method: Temporal Span Proposal Network (TSPN)
+  keywords: Video Visual Relation Detection (VidVRD), Spatio-temporal Video Understanding, Temporal Relation Localization
+  paper: https://arxiv.org/abs/2107.07154
+  code: https://github.com/sangminwoo/Temporal-Span-Proposal-Network-VidVRD
+  youtube: https://www.youtube.com/watch?v=VJcHdtz1sCo
+
 - title: 'Revisiting Dropout: Escaping Pressure for Training Neural Networks with Multiple Costs'
-  where: Electronics # Will appear next to the title
+  where: Electronics 2021 # Will appear next to the title
   image: assets/img/publication/sangmin_costout.png # Can be external link
   abstract: >
     A common approach to jointly learn multiple tasks with a shared structure is to optimize the model with a combined landscape of multiple sub-costs.
