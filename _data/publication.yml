@@ -25,6 +25,7 @@ without the loss of any information unlike other projection-based methods.
   keywords: representation learning, spherization, angular similarity
   paper: https://openreview.net/pdf?id=OXourTLd9UO
   code: https://github.com/GIST-IRR/spherization_layer
+  youtube: https://neurips.cc/virtual/2022/poster/53555
 
 - title: 'Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions'
   where: IEEE Transactions on Neural Networks and Learning Systems (TNNLS 2022)
