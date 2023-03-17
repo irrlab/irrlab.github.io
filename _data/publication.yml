@@ -1,7 +1,7 @@
 # Publications list
   
 - title: 'Spherization Layer: Representation Using Only Angles'
-  where: 36th Conference one Neural Information Processing Systems (NeurIPS 2022)
+  where: 36th Conference on Neural Information Processing Systems (NeurIPS 2022)
   image: assets/img/publication/hoyong_sph.png # Can be external link
   abstract: >
     In neural network literature, angular similarity between feature vectors is frequently used for interpreting or re-using learned representations.
@@ -14,7 +14,7 @@
     We validate the functional correctness of the proposed method in a toy task, retention ability in well-known image classification tasks, and effectiveness in word analogy test and few-shot learning. 
     Code is publicly available at https://github.com/GIST-IRR/spherization_layer
   question: How about learning representations using only the angles and using them on angular similarity?
-  idea: Learn feature representations using only angles.
+  idea: Learn feature representations by using only angles.
   dataset: MNIST, Fashion-MNIST, CIFAR10/100, WikiText, Mini-ImageNet
   method: Spherization Layer
   keywords: representation learning, spherization, angular similarity
