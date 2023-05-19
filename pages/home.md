@@ -5,9 +5,7 @@ description: Gwangju Institute of Science and Technology (GIST)
 permalink: /
 ---
 
-
-## Vision and Research Area
-How to build a single accumulative intelligence for more general and wider problems?
+<b> How to build a single accumulative intelligence for more general and wider problems? </b> 
 
 ![Main page img](assets/img/Lab_Vision.png)
 *modified at Jun 23, 2021*
