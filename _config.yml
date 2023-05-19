@@ -53,6 +53,8 @@ defaults:
       layout: "default"                 # Only required for Petridish website, implied for sites using a theme
 
 
+
+
 # Analytics
 analytics:
   provider               : "google-gtag" 

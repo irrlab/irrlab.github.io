@@ -2,16 +2,16 @@
 layout: home
 title: Intelligence Representation & Reasoning Lab
 description: Gwangju Institute of Science and Technology (GIST)
-background: /assets/img/GIST_background.jpg
 permalink: /
 ---
 
-
+## Notice
+We are always looking for strongly self-motivated students who want to dive into research for deep and fundamental understanding of AI.
 
 ## News
 ---
 <!-- Content here would shop up above your list of posts -->
-#### Congratulations on the acceptance
+## Recent Academic Achievemetns
 - 22.09.15: regular paper for NeurIPS 2022: "Spherization Layer: Representation Using Only Angles"<br/>
 - 22.03.12: regular paper for IEEE TNNLS: "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions"<br/>
 - 22.03.04: grant proposal for NRF: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning <br/>
@@ -23,7 +23,7 @@ How to build a single accumulative intelligence for more general and wider probl
 ![Main page img](assets/img/Lab_Vision.png)
 *modified at Jun 23, 2021*
 
-
+<!--
 ## Research Infra
 ---
 **1. Researchers**
@@ -36,3 +36,4 @@ How to build a single accumulative intelligence for more general and wider probl
 
 **3. Funding**
 ![fundings_logo](assets/img/Funding.png)
+ -->
