@@ -15,6 +15,7 @@ Automata Theory: [course site]()
 ## Natural Language Processing
 - 2020 Spring
 - 2022 Spring
+- 2023 Spring
 
 ## Artificial Intelligence
 - 2017
