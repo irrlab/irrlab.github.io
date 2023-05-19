@@ -1,7 +1,6 @@
 ---
 title: Courses
 description: Courses
-background: /assets/img/Night_background.jpg
 permalink: /courses/
 ---
 

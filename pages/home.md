@@ -7,14 +7,15 @@ permalink: /
 
 ## Notice
 We are always looking for strongly self-motivated students who want to dive into research for deep and fundamental understanding of AI.
+---
 
 ## News
 ---
 <!-- Content here would shop up above your list of posts -->
-## Recent Academic Achievemetns
-- 22.09.15: regular paper for NeurIPS 2022: "Spherization Layer: Representation Using Only Angles"<br/>
-- 22.03.12: regular paper for IEEE TNNLS: "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions"<br/>
-- 22.03.04: grant proposal for NRF: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning <br/>
+## Recent Academic Achievements
+22.09.15: NeurIPS, "Spherization Layer: Representation Using Only Angles"<br/>
+22.03.12: IEEE TNNLS, "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions"<br/>
+22.03.04: NRF Grant: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning <br/>
 
 ## Vision and Research Area
 ---

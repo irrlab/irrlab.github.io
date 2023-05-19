@@ -19,7 +19,7 @@ archive_permalink: /blog/               # Permalink of page using archive.html l
 logo: /assets/img/IRR_logo.png  # Logo in navbar, will be displayed with 30px height
 colors:
   links: "#DC2415"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#DC2415"                     # Background color for page banners: use color that contrasts well with white
+  banner: "#2986CC"                     # Background color for page banners: use color that contrasts well with white
   footer: "#333"                     # Background color for footer: use color that contrasts well with white
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
 

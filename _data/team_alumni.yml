@@ -17,41 +17,7 @@
   link: https://sangminwoo.github.io
   github: sangminwoo
   scholar: https://scholar.google.com/citations?user=5hvoV1UAAAAJ&hl=ko
-
-- name: Somi Jin
-  role: Undergrad. Intern
-  description: >
-    **Current Position**:
-  email: None
-
-- name: Jiyoon Han
-  role: Undergrad. Intern
-  image: assets/img/team/jiyoon.jpg
-  description: >
-    **Current Position**: 
-  email: jiyoon2421@gmail.com
-
-- name: Hyungrok Jung
-  role: Undergrad. Intern
-  image: assets/img/team/hyungrok.jpg
-  description: >
-    **Current Position**: 
-  email: None
-  
-- name: Minchan Kwon
-  role: Undergrad. Intern
-  image: assets/img/team/minchan.jpg
-  description: >
-    **email**:
-  email: None
-
-- name: Dongguk Si
-  role: Undergrad. Intern
-  image: assets/img/team/dongguk.jpg
-  description: >
-    **email**:
-  email: None
-  
+ 
 - name: HeeSeung Jung
   role: M.S.
   image: assets/img/team/heeseung.jpg
@@ -86,3 +52,37 @@
     **Current Position**: LG Electronics<br/>
     **email**: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
+
+- name: Somi Jin
+  role: Undergrad. Intern
+  description: >
+    **Current Position**:
+  email: None
+
+- name: Jiyoon Han
+  role: Undergrad. Intern
+  image: assets/img/team/jiyoon.jpg
+  description: >
+    **Current Position**: 
+  email: jiyoon2421@gmail.com
+
+- name: Hyungrok Jung
+  role: Undergrad. Intern
+  image: assets/img/team/hyungrok.jpg
+  description: >
+    **Current Position**: 
+  email: None
+  
+- name: Minchan Kwon
+  role: Undergrad. Intern
+  image: assets/img/team/minchan.jpg
+  description: >
+    **email**:
+  email: None
+
+- name: Dongguk Si
+  role: Undergrad. Intern
+  image: assets/img/team/dongguk.jpg
+  description: >
+    **email**:
+  email: None
