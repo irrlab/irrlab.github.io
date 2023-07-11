@@ -1,17 +1,17 @@
 # Publications list
-  
+
 - title: 'Spherization Layer: Representation Using Only Angles'
   where: 36th Conference on Neural Information Processing Systems (NeurIPS 2022)
   image: assets/img/publication/hoyong_sph.png # Can be external link
   abstract: >
     In neural network literature, angular similarity between feature vectors is frequently used for interpreting or re-using learned representations.
-    However, the inner product in neural networks partially disperses information over the scales and angles of the involved input vectors and weight vectors. 
-    Therefore, when using only angular similarity on representations trained with the inner product, information loss occurs in downstream methods, which limits their performance. 
-    In this paper, we proposed the spherization layer to represent all information on angular similarity. 
-    The layer 1) maps the pre-activations of input vectors into the specific range of angles, 2) converts the angular coordinates of the vectors to Cartesian coordinates with an additional dimension, and 3) trains decision boundaries from hyperplanes, without bias parameters, passing through the origin. 
+    However, the inner product in neural networks partially disperses information over the scales and angles of the involved input vectors and weight vectors.
+    Therefore, when using only angular similarity on representations trained with the inner product, information loss occurs in downstream methods, which limits their performance.
+    In this paper, we proposed the spherization layer to represent all information on angular similarity.
+    The layer 1) maps the pre-activations of input vectors into the specific range of angles, 2) converts the angular coordinates of the vectors to Cartesian coordinates with an additional dimension, and 3) trains decision boundaries from hyperplanes, without bias parameters, passing through the origin.
     This approach guarantees that representation learning always occurs on the hyperspherical surface without the loss of any information unlike other projection-based methods.
-    Furthermore, this method can be applied to any network by replacing an existing layer. 
-    We validate the functional correctness of the proposed method in a toy task, retention ability in well-known image classification tasks, and effectiveness in word analogy test and few-shot learning. 
+    Furthermore, this method can be applied to any network by replacing an existing layer.
+    We validate the functional correctness of the proposed method in a toy task, retention ability in well-known image classification tasks, and effectiveness in word analogy test and few-shot learning.
     Code is publicly available at https://github.com/GIST-IRR/spherization_layer
   question: How about learning representations using only the angles and using them on angular similarity?
   idea: Learn feature representations by using only angles.
@@ -48,11 +48,11 @@
   code: https://github.com/sangminwoo/Local-to-Global-Interaction-Networks-SGG
   youtube: https://www.youtube.com/watch?v=dvyPCQqU-8E
 
-- title: 'Feature Structure Distillation for BERT Transferring'
+- title: 'Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring'
   where: Arxiv 2022
   image: assets/img/publication/HeeJun_FSD.png
   abstract: >
-    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference. A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge. To resolve it in BERT transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature, global inter-feature structures. To transfer them, we introduce *feature structure distillation* methods based on the Centered Kernel Alignment, which assigns a consistent value to similar features structures and reveals more informative relations. In particular, a memory-augmented transfer method with clustering is implemented for the global structures. In the experiments on the nine tasks for language understanding of the GLUE dataset, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods. Indeed, the code for the methods is available in <a href="https://github.com/maroo-sky/FSD">this page</a>. 
+    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference. A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge. To resolve it in BERT transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature, global inter-feature structures. To transfer them, we introduce *feature structure distillation* methods based on the Centered Kernel Alignment, which assigns a consistent value to similar features structures and reveals more informative relations. In particular, a memory-augmented transfer method with clustering is implemented for the global structures. In the experiments on the nine tasks for language understanding of the GLUE dataset, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods. Indeed, the code for the methods is available in <a href="https://github.com/maroo-sky/FSD">this page</a>.
   idea: Transfer relation of teacher's knowledge to student.
   dataset: GLUE
   method: Feature Structure Distillation (FSD)
