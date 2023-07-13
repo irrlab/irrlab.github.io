@@ -1,7 +1,7 @@
 # Publications list
 
 - title: 'Multiple Invertible and Partial-Equivariant Function for Latent Vector Transformation to Enhance Disentanglement in VAEs'
-  where: Submmitted Article (IEEE)
+  where: Submmitted Article (IEEE) "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible"
   image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: >
     Disentanglement learning is a core issue for understanding and re-using trained information in Variational AutoEncoder (VAE),
@@ -19,8 +19,6 @@
   method: Multiple Invertible and Partial-Equivariant Transformation (MIPET)
   keywords: Invertible, Partial-Equivariant, Disentanglement learning, Variational Auto-Encoder (VAE)
   paper: https://drive.google.com/file/d/1DEHYGkKnYfwIgnaz3aBh5c9qhILitlci/view?usp=drive_link
-  code: Code will be relased
-  comments: This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible
 
 - title: 'Spherization Layer: Representation Using Only Angles'
   where: 36th Conference on Neural Information Processing Systems (NeurIPS 2022)
