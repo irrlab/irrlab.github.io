@@ -49,10 +49,22 @@
   youtube: https://www.youtube.com/watch?v=dvyPCQqU-8E
 
 - title: 'Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring'
-  where: Arxiv 2022
+  where: ELSEVIER Expert Systems with Applications (ESWA)
   image: assets/img/publication/HeeJun_FSD.png
   abstract: >
-    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference. A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge. To resolve it in BERT transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature, global inter-feature structures. To transfer them, we introduce *feature structure distillation* methods based on the Centered Kernel Alignment, which assigns a consistent value to similar features structures and reveals more informative relations. In particular, a memory-augmented transfer method with clustering is implemented for the global structures. In the experiments on the nine tasks for language understanding of the GLUE dataset, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods. Indeed, the code for the methods is available in <a href="https://github.com/maroo-sky/FSD">this page</a>.
+    Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference.
+    A challenge of this approach is to reduce the flexibility of the student's representations inducing inaccurate learning of the teacher's knowledge.
+    To resolve it in transferring, we investigate distillation of structures of representations specified to three types: intra-feature, local inter-feature,
+    global inter-feature structures, instead representations.
+    To transfer them, we introduce feature structure distillation methods based on the Centered Kernel Alignment (CKA), which assigns a consistent value to
+    similar feature structures and reveals more informative relations.
+    We implement intra-feature structure with the relation between tokens in single sentence, and inter feature structure with the relation between sentences in mini-batch.
+    In particular, a memory-augmented transfer method with clustering is implemented for the global structures.
+    Then we utilize the CKA metric to transfer the teacher's structure to student's through layer-wise distillation.
+    The methods are empirically analyzed on the nine tasks for language understanding of the GLUE dataset with Bidirectional Encoder Representations from Transformers (BERT),
+    which is a representative neural language model.
+    In the results, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods.
+    Indeed, the code for the methods is available at <a href="https://github.com/maroo-sky/FSD">https://github.com/maroo-sky/FSD</a>.
   idea: Transfer relation of teacher's knowledge to student.
   dataset: GLUE
   method: Feature Structure Distillation (FSD)
