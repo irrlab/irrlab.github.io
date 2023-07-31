@@ -6,6 +6,8 @@ permalink: /blog/
 ---
 
 <!-- Content here would shop up above your list of posts -->
+- 23.07.10: Congratulations on the acceptance of the regular paper, "Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring" from ELSEVIER Expert Systems with Applications.
+
 - 22.09.15: Congratulations on the acceptance of the regular paper, "Spherization Layer: Representation Using Only Angles" from NeurIPS 2022.
 
 - 22.03.12: Congratulations on the acceptance of the regular paper, "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions", from IEEE Transactions on Neural Networks and Learning Systems.

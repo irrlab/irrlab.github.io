@@ -69,7 +69,7 @@
   youtube: https://www.youtube.com/watch?v=dvyPCQqU-8E
 
 - title: 'Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring'
-  where: ELSEVIER Expert Systems with Applications (ESWA)
+  where: ELSEVIER Expert Systems with Applications (ESWA 2023)
   image: assets/img/publication/HeeJun_FSD.png
   abstract: >
     Knowledge distillation is an approach to transfer information on representations from a teacher to a student by reducing their difference.
@@ -85,11 +85,12 @@
     which is a representative neural language model.
     In the results, the proposed methods effectively transfer the three types of structures and improve performance compared to state-of-the-art distillation methods.
     Indeed, the code for the methods is available at <a href="https://github.com/maroo-sky/FSD">https://github.com/maroo-sky/FSD</a>.
+  question: How to transfer the feature structure from teacher to student model?
   idea: Transfer relation of teacher's knowledge to student.
   dataset: GLUE
   method: Feature Structure Distillation (FSD)
   keywords: Knowledge Distillation, Centered Kernel Alignment, Feature Sturcture, BERT, Natural Language Processing
-  paper: https://arxiv.org/abs/2204.08922
+  paper: https://www.sciencedirect.com/science/article/pii/S0957417423014823
   code: https://github.com/maroo-sky/FSD
   youtube: https://www.youtube.com/watch?v=hM5ccfRj4hs
 
