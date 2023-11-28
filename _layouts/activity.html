@@ -21,6 +21,15 @@ description: Template for activitiess
       <ul class="list-inline">
         {{ activities.description | markdownify }}
 
+        {% if activities.description %}
+        <li class="list-item">
+          <details>
+            <summary><b><b/></summary>
+            <p><span class="notbold">{{ activities.description }}<span/></p>
+          </details>
+        </li>
+        {% endif %}
+
         {% if activities.abstract %}
         <li class="list-item">
           <details>
