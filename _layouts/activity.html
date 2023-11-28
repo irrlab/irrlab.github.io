@@ -1,62 +1,62 @@
 ---
 layout: base
-description: Template for publications
+description: Template for activitiess
 ---
 
 {{ content }}
 
-{% for publication in site.data.publication %}
-  <h5 id="{{ publication.title | strip | url_encode }}">
-    {{ publication.title }}
-    {% if publication.where %}
+{% for activities in site.data.activities %}
+  <h5 id="{{ activities.title | strip | url_encode }}">
+    {{ activities.title }}
+    {% if activities.where %}
     <!-- chnage format -->
-    <!-- <small class="text-muted">| {{ publication.where }}</small> -->
-    <p><small class="text-muted">{{ publication.where }}</small></p>
+    <!-- <small class="text-muted">| {{ activities.where }}</small> -->
+    <p><small class="text-muted">{{ activities.where }}</small></p>
     {% endif %}
   </h5>
 
-  <div class="media publication-paper">
-    <img class="mr-3" src="{{ publication.image | relative_url }}">
+  <div class="media activities-paper">
+    <img class="mr-3" src="{{ activities.image | relative_url }}">
     <div class="media-body">
       <ul class="list-inline">
-        {{ publication.description | markdownify }}
+        {{ activities.description | markdownify }}
 
-        {% if publication.abstract %}
+        {% if activities.abstract %}
         <li class="list-item">
           <details>
             <summary><b>Abstract<b/></summary>
-            <p><span class="notbold">{{ publication.abstract }}<span/></p>
+            <p><span class="notbold">{{ activities.abstract }}<span/></p>
           </details>
         </li>
         {% endif %}
 
-        {% if publication.question %}
+        {% if activities.question %}
         <li class="list-item">
-          <b>Question: <span class="notbold">{{ publication.question }}<span/><b/>
+          <b>Question: <span class="notbold">{{ activities.question }}<span/><b/>
         </li>
         {% endif %}
 
-        {% if publication.idea %}
+        {% if activities.idea %}
         <li class="list-item">
-          <b>Idea: <span class="notbold">{{ publication.idea }}<span/><b/>
+          <b>Idea: <span class="notbold">{{ activities.idea }}<span/><b/>
         </li>
         {% endif %}
 
-        {% if publication.dataset %}
+        {% if activities.dataset %}
         <li class="list-item">
-          <b>Dataset: <span class="notbold">{{ publication.dataset }}</span></b>
+          <b>Dataset: <span class="notbold">{{ activities.dataset }}</span></b>
         </li>
         {% endif %}
 
-        {% if publication.method %}
+        {% if activities.method %}
         <li class="list-item">
-          <b>Method: <span class="notbold">{{ publication.method }}</span></b>
+          <b>Method: <span class="notbold">{{ activities.method }}</span></b>
         </li>
         {% endif %}
 
-        {% if publication.keywords %}
+        {% if activities.keywords %}
         <li class="list-item">
-          <b>Keywords: <span class="notbold">{{ publication.keywords }}</span></b>
+          <b>Keywords: <span class="notbold">{{ activities.keywords }}</span></b>
         </li>
         {% endif %}
       </ul>
@@ -64,21 +64,21 @@ description: Template for publications
       <ul class="list-inline">
         <b>Links: </b>
 
-        {% if publication.paper %}
+        {% if activities.paper %}
         <li class="list-inline-item">
-          <a class="notbold" href="{{ publication.paper }}"><i class="fa fa-book"></i></a>
+          <a class="notbold" href="{{ activities.paper }}"><i class="fa fa-book"></i></a>
         </li>
         {% endif %}
 
-        {% if publication.code %}
+        {% if activities.code %}
         <li class="list-inline-item">
-          <a class="notbold" href="{{ publication.code }}"><i class="fa fa-github"></i></a>
+          <a class="notbold" href="{{ activities.code }}"><i class="fa fa-github"></i></a>
         </li>
         {% endif %}
 
-        {% if publication.youtube %}
+        {% if activities.youtube %}
         <li class="list-inline-item">
-          <a class="notbold" href="{{ publication.youtube }}"><i class="fa fa-youtube"></i></a>
+          <a class="notbold" href="{{ activities.youtube }}"><i class="fa fa-youtube"></i></a>
         </li>
         {% endif %}
       </ul>
