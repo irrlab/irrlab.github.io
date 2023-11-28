@@ -21,11 +21,11 @@ description: Template for activitiess
       <ul class="list-inline">
         {{ activities.description | markdownify }}
 
-        {% if activities.description %}
+        {% if activities.comment %}
         <li class="list-item">
           <details>
             <summary><b><b/></summary>
-            <p><span class="notbold">{{ activities.description }}<span/></p>
+            <p><span class="notbold">{{ activities.comment }}<span/></p>
           </details>
         </li>
         {% endif %}
