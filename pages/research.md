@@ -1,6 +1,6 @@
 ---
 layout: research
 title: Research
-description: Projects and Publications
+description: Research Publication Summary
 permalink: /research/
 ---

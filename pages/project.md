@@ -1,8 +1,6 @@
 ---
-layout: base
-title: Projects
-description: Projects
-permalink: /projects/
+layout: research
+title: Project
+description: Project
+permalink: /project/
 ---
-
-To be updated
