@@ -23,8 +23,8 @@
   href: /activity/
 - text: Courses
   href: /courses/
-- text: News
-  href: /blog/
+  #- text: News
+  #href: /blog/
 
 #- text: Output
 #  menu: # Dropdown menu (one level deep only)
