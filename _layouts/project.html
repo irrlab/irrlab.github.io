@@ -21,6 +21,7 @@ description: Template for projects
       <ul class="list-inline">
         {{ project.description | markdownify }}
 
+<!--
         {% if project.abstract %}
         <li class="list-item">
           <details>
@@ -29,7 +30,7 @@ description: Template for projects
           </details>
         </li>
         {% endif %}
-
+-->
         {% if project.question %}
         <li class="list-item">
           <b>Question: <span class="notbold">{{ project.question }}<span/><b/>
@@ -61,6 +62,7 @@ description: Template for projects
         {% endif %}
       </ul>
 
+<!--
       <ul class="list-inline">
         <b>Links: </b>
 
@@ -82,6 +84,7 @@ description: Template for projects
         </li>
         {% endif %}
       </ul>
+-->
     </div>
   </div>
 {% endfor %}
