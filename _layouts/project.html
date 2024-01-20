@@ -60,6 +60,12 @@ description: Template for projects
           <b>Keywords: <span class="notbold">{{ project.keywords }}</span></b>
         </li>
         {% endif %}
+
+        {% if project.funding %}
+        <li class="list-item">
+          <b>funding: <span class="notbold">{{ project.funding }}</span></b>
+        </li>
+        {% endif %}
       </ul>
 
 <!--
