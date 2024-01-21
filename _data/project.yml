@@ -1,6 +1,6 @@
 # Project list
 - title: 'Representation Invariance Analysis on Various Levels of Relation Structures'
-  # where: National Research Foundation, South Korea, 2022~2027  
+  # funding: National Research Foundation, South Korea, 2022~2027  
   #image: assets/img/publication/minchan_EAE.png
   #abstract: >
   #      In real life, adversarial attack to deep learning models is a fatal security issue. However, the issue has been rarely discussed in a widely used class-incremental continual learning (CICL). In this paper, we address problems of applying adversarial training to CICL, which is well-known defense method against adversarial attack. A well-known problem of CICL is class-imbalance that biases a model to the current task by a few samples of previous tasks. Meeting with the adversarial training, the imbalance causes another imbalance of attack trials over tasks. Lacking clean data of a minority class by the class-imbalance and increasing of attack trials from a majority class by the secondary imbalance, adversarial training distorts optimal decision boundaries. The distortion eventually decreases both accuracy and robustness than adversarial training. To exclude the effects, we propose a straightforward but significantly effective method, External Adversarial Training (EAT) which can be applied to methods using experience replay. This method conduct adversarial training to an auxiliary external model for the current task data at each time step, and applies generated adversarial examples to train the target model. We verify the effects on a toy problem and show significance on CICL benchmarks of image classification. We expect that the results will be used as the first baseline for robustness research of CICL. 
@@ -8,35 +8,34 @@
   keywords: Representation Learning, Relational Learning
   funding: National Research Foundation, South Korea, 2022~2027  
 
-- title: 'Representation Invariance Analysis on Various Levels of Relation Structures'
-  where: Electronics and Telecommunication Research Institute, South Korea, 2022~2023 
+- title: 'Knowledge Extraction from Visual Data for Linguistic Understanding'
   #image: assets/img/publication/minchan_EAE.png
   #abstract: >
   #      In real life, adversarial attack to deep learning models is a fatal security issue. However, the issue has been rarely discussed in a widely used class-incremental continual learning (CICL). In this paper, we address problems of applying adversarial training to CICL, which is well-known defense method against adversarial attack. A well-known problem of CICL is class-imbalance that biases a model to the current task by a few samples of previous tasks. Meeting with the adversarial training, the imbalance causes another imbalance of attack trials over tasks. Lacking clean data of a minority class by the class-imbalance and increasing of attack trials from a majority class by the secondary imbalance, adversarial training distorts optimal decision boundaries. The distortion eventually decreases both accuracy and robustness than adversarial training. To exclude the effects, we propose a straightforward but significantly effective method, External Adversarial Training (EAT) which can be applied to methods using experience replay. This method conduct adversarial training to an auxiliary external model for the current task data at each time step, and applies generated adversarial examples to train the target model. We verify the effects on a toy problem and show significance on CICL benchmarks of image classification. We expect that the results will be used as the first baseline for robustness research of CICL. 
   question: How to extract latent objects and their structures from images in unsupervised manner for the use in multimodal environment?
   keywords: Representation Learning, Relational Learning
-
+  funding: Electronics and Telecommunication Research Institute, South Korea, 2022~2023 
 
 - title: 'Schema Loading Networks for Learning Common Knowledge Representation'
-  where: National Research Foundation, South Korea, 2019~2022 
   #image: assets/img/publication/minchan_EAE.png
   #abstract: >
   #      In real life, adversarial attack to deep learning models is a fatal security issue. However, the issue has been rarely discussed in a widely used class-incremental continual learning (CICL). In this paper, we address problems of applying adversarial training to CICL, which is well-known defense method against adversarial attack. A well-known problem of CICL is class-imbalance that biases a model to the current task by a few samples of previous tasks. Meeting with the adversarial training, the imbalance causes another imbalance of attack trials over tasks. Lacking clean data of a minority class by the class-imbalance and increasing of attack trials from a majority class by the secondary imbalance, adversarial training distorts optimal decision boundaries. The distortion eventually decreases both accuracy and robustness than adversarial training. To exclude the effects, we propose a straightforward but significantly effective method, External Adversarial Training (EAT) which can be applied to methods using experience replay. This method conduct adversarial training to an auxiliary external model for the current task data at each time step, and applies generated adversarial examples to train the target model. We verify the effects on a toy problem and show significance on CICL benchmarks of image classification. We expect that the results will be used as the first baseline for robustness research of CICL. 
   question: What is a learnable architecture to save and load modular neural networks? 
   keywords: Representation Learning, Optimization, Relational Learning
+  funding: National Research Foundation, South Korea, 2019~2022 
 
 - title: 'Statistical and Neural Machine Translation '
-  where: Electronics and Telecommunication Research Institute, South Korea, 2016~2020
   #image: assets/img/publication/minchan_EAE.png
   #abstract: >
   #      In real life, adversarial attack to deep learning models is a fatal security issue. However, the issue has been rarely discussed in a widely used class-incremental continual learning (CICL). In this paper, we address problems of applying adversarial training to CICL, which is well-known defense method against adversarial attack. A well-known problem of CICL is class-imbalance that biases a model to the current task by a few samples of previous tasks. Meeting with the adversarial training, the imbalance causes another imbalance of attack trials over tasks. Lacking clean data of a minority class by the class-imbalance and increasing of attack trials from a majority class by the secondary imbalance, adversarial training distorts optimal decision boundaries. The distortion eventually decreases both accuracy and robustness than adversarial training. To exclude the effects, we propose a straightforward but significantly effective method, External Adversarial Training (EAT) which can be applied to methods using experience replay. This method conduct adversarial training to an auxiliary external model for the current task data at each time step, and applies generated adversarial examples to train the target model. We verify the effects on a toy problem and show significance on CICL benchmarks of image classification. We expect that the results will be used as the first baseline for robustness research of CICL. 
   question: Enhancing translation quality by probabilistic and representation analysis for machine translation
-  keywords: Natural Language Processing 
+  keywords: natural language processing 
+  funding: Electronics and Telecommunication Research Institute, South Korea, 2016~2020
 
 - title: 'Expression Power Enhancement of Infinite Probabilistic Context Free Grammar'
-  where: National Research Foundation, South Korea, 2016
   #image: assets/img/publication/minchan_EAE.png
   #abstract: >
   #      In real life, adversarial attack to deep learning models is a fatal security issue. However, the issue has been rarely discussed in a widely used class-incremental continual learning (CICL). In this paper, we address problems of applying adversarial training to CICL, which is well-known defense method against adversarial attack. A well-known problem of CICL is class-imbalance that biases a model to the current task by a few samples of previous tasks. Meeting with the adversarial training, the imbalance causes another imbalance of attack trials over tasks. Lacking clean data of a minority class by the class-imbalance and increasing of attack trials from a majority class by the secondary imbalance, adversarial training distorts optimal decision boundaries. The distortion eventually decreases both accuracy and robustness than adversarial training. To exclude the effects, we propose a straightforward but significantly effective method, External Adversarial Training (EAT) which can be applied to methods using experience replay. This method conduct adversarial training to an auxiliary external model for the current task data at each time step, and applies generated adversarial examples to train the target model. We verify the effects on a toy problem and show significance on CICL benchmarks of image classification. We expect that the results will be used as the first baseline for robustness research of CICL. 
   question: How to remove bias in optimization of probabilistic context free grammar for better expression power?
   keywords: Optimization, Probability and Relational Learning
+  funding: National Research Foundation, South Korea, 2016
