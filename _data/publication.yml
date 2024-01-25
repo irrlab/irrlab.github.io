@@ -1,7 +1,7 @@
 # Publications list
 - title: 'Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation'
   where: The Twelfth International Conference on Learning Representations (ICLR 2024)
-  image: assets/img/publication/hoyong_fno.png # Can be external link
+  image: assets/img/publication/hoyong_fno.jpg # Can be external link
   abstract: >
     Fixed classifiers in neural networks for classification problems have demonstrated cost efficiency and even outperformed learnable classifiers in some popular benchmarks when incorporating orthogonality (Pernici et al., 2021a).
     Despite these advantages, prior research has yet to investigate the training dynamics of fixed classifiers on neural collapse.
@@ -19,6 +19,23 @@
   keywords: neural collapse, orthogonal, fixed classifier, imbalanced, continual
   paper: https://openreview.net/forum?id=F4bmOrmUwc
   code: https://github.com/GIST-IRR/FNO-classifier
+
+- title: 'Revisiting Softmax Masking: Stop Gradient for Enhancing Stability in Replay-based Continual Learning'
+  where: Arxiv 2024
+  image: assets/img/publication/hoyong_gms.jpg # Can be external link
+  abstract: >
+    In replay-based methods for continual learning, replaying input samples in episodic memory has shown its effectiveness in alleviating catastrophic forgetting.
+    However, the potential key factor of cross-entropy loss with softmax in causing catastrophic forgetting has been underexplored.
+    In this paper, we analyze the effect of softmax and revisit softmax masking with negative infinity to shed light on its ability to mitigate catastrophic forgetting. 
+    Based on the analyses, it is found that negative infinity masked softmax is not always compatible with dark knowledge. 
+    To improve the compatibility, we propose a general masked softmax that controls the stability by adjusting the gradient scale to old and new classes. 
+    We demonstrate that utilizing our method on other replay-based methods results in better performance, primarily by enhancing model stability in continual learning benchmarks, even when the buffer size is set to an extremely small value.
+  question: How can we mitigate catastrophic forgetting caused by the push effect of cross-entropy loss with softmax in continual learning?
+  idea: Enhancing model stability by preventing the gradient flow from the target class to old and new classes for alleviating catastrophic forgetting
+  dataset: Split-{MNIST,CIFAR10/100,TinyImageNet}
+  method: General Masked Softmax
+  keywords: continual learning, softmax, mask, stop gradient
+  paper: https://arxiv.org/abs/2309.14808v2
 
 - title: 'Enhancing Accuracy and Robustness through Adversarial Training in Class Incremental Continual Learning'
   where: arxiv
