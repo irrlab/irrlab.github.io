@@ -1,4 +1,25 @@
 # Publications list
+- title: 'Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation'
+  where: The Twelfth International Conference on Learning Representations (ICLR 2024)
+  image: assets/img/publication/hoyong_fno.png # Can be external link
+  abstract: >
+    Fixed classifiers in neural networks for classification problems have demonstrated cost efficiency and even outperformed learnable classifiers in some popular benchmarks when incorporating orthogonality (Pernici et al., 2021a).
+    Despite these advantages, prior research has yet to investigate the training dynamics of fixed classifiers on neural collapse.
+    Ensuring this phenomenon is critical for obtaining global optimality in a layer-peeled model, potentially leading to enhanced performance in practice. 
+    However, the fixed classifiers cannot invoke neural collapse due to their geometric limitations.
+    To overcome the limits, we analyze a zero-mean neural collapse considering the orthogonality in non-negative Euclidean space.   
+    Then, we propose a fixed non-negative orthogonal classifier that induces the optimal solution and maximizes the margin of an orthogonal layer-peeled model by satisfying the properties of zero-mean neural collapse.
+    Building on this foundation, we exploit a feature dimension separation effect inherent in our classifier for further purposes;
+    (1) enhances softmax masking by mitigating feature interference in continual learning and (2) tackles the limitations of mixup on the hypersphere in imbalanced learning.
+    We conducted comprehensive experiments on various datasets and architectures and demonstrated significant performance improvements.
+  question: How the collapse between class means and class weight vectros occurs in a fixed classifier when its shape is not a simplex?
+  idea: When forcing non-negativity and orthogonality to the fixed classifier, zero-mean neural collapse occurs
+  dataset: Split-{MNIST,CIFAR10/100,TinyImageNet}, {CIFAR10/100,ImageNet,Places}-LT
+  method: Fixed Non-negative Orthogonal Classifier
+  keywords: neural collapse, orthogonal, fixed classifier, imbalanced, continual
+  paper: https://openreview.net/forum?id=F4bmOrmUwc
+  code: https://github.com/GIST-IRR/FNO-classifier
+
 - title: 'Enhancing Accuracy and Robustness through Adversarial Training in Class Incremental Continual Learning'
   where: arxiv
   image: assets/img/publication/minchan_EAE.png
