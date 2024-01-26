@@ -1,15 +1,15 @@
 # activity list
 - title: '2023 Winter Workshop'
-  image: assets/img/publication/HeeJun_MIPET.jpg
-  abstract: in Damyang
+  #image: assets/img/publication/HeeJun_MIPET.jpg
+  abstract: Damyang, South Korea
   #  youtube: None
 
 - title: '2022 Neurips'
-  image: assets/img/publication/HeeJun_MIPET.jpg
-  abstract: in New Orleans 
+  #image: assets/img/publication/HeeJun_MIPET.jpg
+  abstract: New Orleans, US 
   #  youtube: None
   #
 - title: '2021 KIISE'
-  image: assets/img/publication/HeeJun_MIPET.jpg
-  abstract: in New Orleans 
+  #image: assets/img/publication/HeeJun_MIPET.jpg
+  abstract: PyeongChang, South Korea
   #  youtube: None
