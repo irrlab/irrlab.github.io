@@ -41,8 +41,9 @@
     #### Publications
 
     - Selected <br/>
-
-      - H. Kim, and K. Kim. "Spherization Layer: Representation Using Only Angles", NeurIPS 2022, To be appeared. 
+      - I. Kang, H. Bae, and K. Kim. "Label-Focused Inductive Bias over Latent Object Features in Visual Classification", ICLR 2024, To be appeared. 
+      - H. Kim, and K. Kim. "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation", ICLR 2024, To be appeared. 
+      - H. Kim, and K. Kim. "Spherization Layer: Representation Using Only Angles", NeurIPS 2022. 
       - H.-J. Jung, D. Kim, S.-H. Na, and K. Kim. Feature structure distillation for bert transferring. arXiv preprint arXiv:2204.08922, 2022
       - S. Woo, J. Noh, and K. Kim. Tackling the challenges in scene graph generation with local-to-global interactions. IEEE Transactions on Neural Networks and Learning Systems, 2022.
       - S. Woo, J. Noh, and K. Kim. What and when to look?: Temporal span proposal network for video visual relation detection. arXiv preprint arXiv:2107.07154, 2021.
@@ -62,7 +63,7 @@
     #### Main Projects
 
     - Model Analysis <br/>
-    **2022~2026** Representation Analysis for Learning Canonicalized Representations ( NRF) <br/>  
+    **2022~2027** Representation Analysis for Learning Canonicalized Representations (NRF) <br/>  
     **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/>  
     **2016~2016** Improvement of Expression Power of Infinite Probabilistic Context Free Grammar (NRF) <br/> 
     **before 2013** Bias analysis of probabilistic context free grammar models in estimation of distribution algorithm in genetic programming (in PhD program, NRF)<br/>
@@ -75,22 +76,17 @@
 
 
     #### Review Service
-
-    IEEE Transactions on Neural Network and Learning Systems<br/>
-    IEEE Transactions on Evolutionary Computation<br/>
-    IEEE Transactions on Audio, Speech and Language Processing<br/>
-    Expert Systems With Applications<br/>
-    EMNLP 2022<br/>
-    EMNLP 2021<br/>
+    IEEE Transactions on Neural Network and Learning Systems <br/>
+    IEEE Transactions on Evolutionary Computation <br/>
+    IEEE Transactions on Audio, Speech and Language Processing <br/>
+    Expert Systems With Applications <br/>
+    EMNLP 2023, 2022, 2021 <br/>
+    ACL 2023 <br/>
     <br/>
 
     ##### Acronyms
-
     GIST (Gwangju Institute of Science and Technology, Korea)<br/>
     ETRI (Electronics and Telecommunications Research Institute, Korea)<br/>
     UPM (Polytechnic University of Madrid, Spain)<br/>
     SNU (Seoul National University, Korea)<br/>
     NII (National Institute of Informatics, Japan)<br/>
-
-
-
