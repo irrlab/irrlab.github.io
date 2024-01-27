@@ -6,7 +6,8 @@ description: Template for publications
 {{ content }}
 
 {% for publication in site.data.publication %}
-  <h5 id="{{ publication.title | strip | url_encode }}">
+  <h5 id="{{ publication.title | strip }}">
+	  <!-- <h5 id="{{ publication.title | strip | url_encode }}"> -->
     {{ publication.title }}
     {% if publication.where %}
     <!-- chnage format -->
