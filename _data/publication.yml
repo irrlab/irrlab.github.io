@@ -50,6 +50,18 @@
   keywords: continual learning, softmax, mask, stop gradient
   paper: https://arxiv.org/abs/2309.14808v2
 
+- title: 'Asymptotic Midpoint Mixup for Margin Balancing and Moderate Broadening'
+  where: Arxiv 2024
+  image: assets/img/publication/hoyong_ammixup.jpg # Can be external link
+  abstract: >
+    In the feature space, the collapse between features invokes critical problems in representation learning by remaining the features undistinguished. Interpolation-based augmentation methods such as mixup have shown their effectiveness in relieving the collapse problem between different classes, called inter-class collapse. However, intra-class collapse raised in coarse-to-fine transfer learning has not been discussed in the augmentation approach. To address them, we propose a better feature augmentation method, asymptotic midpoint mixup. The method generates augmented features by interpolation but gradually moves them toward the midpoint of inter-class feature pairs. As a result, the method induces two effects; 1) balancing the margin for all classes and 2) only moderately broadening the margin until it holds maximal confidence. We empirically analyze the collapse effects by measuring alignment and uniformity with visualizing representations. Then, we validate the intra-class collapse effects in coarse-to-fine transfer learning and the inter-class collapse effects in imbalanced learning on long-tailed datasets. In both tasks, our method shows better performance than other augmentation methods.
+  question: How can we learn balanced margin in decision?
+  idea: Asymptotically mixup hidden vectors in the latent space
+  dataset: '{CIFAR10/100,ImageNet,Places}-LT, {MNIST,CIFAR10/100}-CoarseToFine'
+  method: Asymptotic Midpoint Mixup
+  keywords: augmentation, mixup, manifold mixup, imbalanced learning
+  paper: https://arxiv.org/abs/2401.14696
+
 - title: 'Enhancing Accuracy and Robustness through Adversarial Training in Class Incremental Continual Learning'
   where: arxiv
   image: assets/img/publication/minchan_EAE.png
