@@ -82,9 +82,9 @@
     **email**: jisung9973*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
   email: jisung9973@gm.gist.ac.kr
 
-  - name: Seungju Bang
-    role: M.S. Candidate
-    image: assets/img/team/seungju.jpg
-    description: >
-      **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-    email: robin990510@gm.gist.ac.kr
+- name: Seungju Bang
+  role: M.S. Candidate
+  image: assets/img/team/seungju.jpg
+  description: >
+    **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+  email: robin990510@gm.gist.ac.kr
