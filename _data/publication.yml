@@ -1,16 +1,16 @@
 # Publications list
-- title: 'Output-Domain Focused Inductive Bias on Latent Feature Clusters in Visual Classification'
+- title: Label-Focused Inductive Bias over Latent Object Features in Visual Classification
   where: The Twelfth International Conference on Learning Representations (ICLR 2024)
   image: assets/img/publication/ilmin_llb.jpg # Can be external link
   abstract: >
     Most neural networks for classification primarily learn features differentiated by input-domain related information such as visual similarity of objects in an im- age. This input-domain focused inductive bias, while natural, can unintentionally conflict with unexpressed yet implicitly utilized relations over latent objects in human labeling, referred to Undescribed world knowledge (UWK). Such conflicts can limit generalization of models by potential dominance of the input-domain focused bias in inference. To overcome this limitation without external resources, we introduce Label-focused Latent-object Biasing (LLB) training method that con- structs label-focused inductive bias over latent objects determined by only labels as UWK. It has four steps: 1) it learns intermediate latent object features in an unsupervised manner; 2) it decouples their visual dependencies by assigning new independent embedding parameters; 3) it captures structured features optimized for the original classification task; and 4) it integrates the structured features with the original visual features for the final prediction. We implement the LLB on a vision transformer architecture, and achieved significant improvements on im- age classification benchmarks. This paper offers a straightforward and effective method to obtain and utilize undescribed world knowledge in classification tasks.
-  question: Unintentional conflicts between input image(doamin) focused inductive bias and relations over latent objects in human labeling(Undescribed world knowledge), and how can we handle it?
+  question: Unintentional conflicts between input image(doamin) focused inductive bias and relations over latent objects in human labeling(Undescribed world knowledge) exits, and how can we handle it?
   idea: Constructs label-focused inductive bias over latent objects that decouples visual dependencies
   dataset: ImageNet1K, Places356, iNaturalist2018
   method: Label-focused Latent-object Biasing (LLB)
   keywords: Representation Learning, Output-Domain Focused Inductive Bias, Classification
-  paper: TBU
-  code: TBU
+  paper: https://openreview.net/forum?id=cH3oufN8Pl
+  code: https://github.com/IlminKang/LLB
 
 - title: 'Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation'
   where: The Twelfth International Conference on Learning Representations (ICLR 2024)
@@ -49,6 +49,18 @@
   method: General Masked Softmax
   keywords: continual learning, softmax, mask, stop gradient
   paper: https://arxiv.org/abs/2309.14808v2
+
+- title: 'Asymptotic Midpoint Mixup for Margin Balancing and Moderate Broadening'
+  where: Arxiv 2024
+  image: assets/img/publication/hoyong_ammixup.jpg # Can be external link
+  abstract: >
+    In the feature space, the collapse between features invokes critical problems in representation learning by remaining the features undistinguished. Interpolation-based augmentation methods such as mixup have shown their effectiveness in relieving the collapse problem between different classes, called inter-class collapse. However, intra-class collapse raised in coarse-to-fine transfer learning has not been discussed in the augmentation approach. To address them, we propose a better feature augmentation method, asymptotic midpoint mixup. The method generates augmented features by interpolation but gradually moves them toward the midpoint of inter-class feature pairs. As a result, the method induces two effects; 1) balancing the margin for all classes and 2) only moderately broadening the margin until it holds maximal confidence. We empirically analyze the collapse effects by measuring alignment and uniformity with visualizing representations. Then, we validate the intra-class collapse effects in coarse-to-fine transfer learning and the inter-class collapse effects in imbalanced learning on long-tailed datasets. In both tasks, our method shows better performance than other augmentation methods.
+  question: How can we learn balanced margin in decision?
+  idea: Asymptotically mixup hidden vectors in the latent space
+  dataset: '{CIFAR10/100,ImageNet,Places}-LT, {MNIST,CIFAR10/100}-CoarseToFine'
+  method: Asymptotic Midpoint Mixup
+  keywords: augmentation, mixup, manifold mixup, imbalanced learning
+  paper: https://arxiv.org/abs/2401.14696
 
 - title: 'Enhancing Accuracy and Robustness through Adversarial Training in Class Incremental Continual Learning'
   where: arxiv
