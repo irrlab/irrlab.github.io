@@ -14,7 +14,9 @@ permalink: /
 
 
 ## Notice
+<!--
 We are always looking for strongly self-motivated students who want to dive into research for deep and fundamental understanding of AI.
+-->
 
 ---
 
