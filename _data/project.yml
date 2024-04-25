@@ -1,4 +1,13 @@
+
 # Project list
+#- title: 'Theoretical Stagnation of Training Dynamics in Neural Network Architectures for Foundation Models'
+  # funding: National Research Foundation, South Korea, 2022~2027  
+  #image: assets/img/publication/minchan_EAE.png
+  #abstract: >
+  #question: How to build a large scale model that reduces various theoretical limits of foundation models? 
+  #keywords: Representation Learning, Foundation Model, Inductive bias, Explanability  
+  #funding: Oak Ridge Leadership Computing Facility (HPC support only), US, 2024.04.23 (1 year) 
+
 - title: 'Representation Invariance Analysis on Various Levels of Relation Structures'
   # funding: National Research Foundation, South Korea, 2022~2027  
   #image: assets/img/publication/minchan_EAE.png
