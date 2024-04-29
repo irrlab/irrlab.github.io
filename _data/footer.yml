@@ -10,7 +10,9 @@ columns:
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      This site is modified by Juhyeon Nam
+      EECS Building C (S2) Room 415, Gwangju Institute of Science and Technology,Gwangju, Cheomdanguagi-ro 123, Buk-gu, 61005
+      Tel: +82-62-715-2663
+
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown

@@ -2,10 +2,11 @@
 layout: home
 title: Intelligence Representation & Reasoning Lab
 description: Gwangju Institute of Science and Technology (GIST)
+background: /assets/img/Hall_background.jpg
 permalink: /
 ---
 
-<b> How to build a single accumulative intelligence for more general and wider problems? </b> 
+## **How to build a single accumulative intelligence <br>for more general and wider problems?**
 
 ![Main page img](assets/img/Lab_Vision.png)
 *modified at Jun 23, 2021*
