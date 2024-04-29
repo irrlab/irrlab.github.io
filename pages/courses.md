@@ -1,10 +1,11 @@
 ---
 title: Courses
+layout: course
 description: Courses
 permalink: /courses/
 ---
 
-{% comment %}
+<!-- {% comment %}
 {: .alert .alert-info}
 Automata Theory: [course site]()
 {% endcomment %}
@@ -33,4 +34,4 @@ Automata Theory: [course site]()
 ## Discrete Mathematics
 - 2016
 - 2017
-- 2018
+- 2018 -->
