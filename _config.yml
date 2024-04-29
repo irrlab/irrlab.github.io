@@ -1,3 +1,4 @@
+remote_theme: peterdesmet/petridish@3.0
 # SITE SETTINGS
 title: Intelligence Representation & Reasoning Lab  # Title in top navigation bar (navbar) and <head>
 description: GIST Intelligence Representation & Reasoning Lab website # Site description in <head>
@@ -8,9 +9,10 @@ url: "https://peterdesmet.github.io"  # No slash at the end
 # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
 
 # SOCIAL PROFILES
-email: kangil.kim.01@gmail.com           # Social icon in footer
-#twitter_username: peterdesmet           # Social icon in footer
-github_username: irrlab            # Social icon in footer
+social:
+  email: kangil.kim.01@gmail.com           # Social icon in footer
+  #twitter_username: peterdesmet           # Social icon in footer
+  github: GIST-IRR            # Social icon in footer
 
 # THEME SETTINGS (ALL OPTIONAL)
 posts_on_home: 4                        # Show x number of latest posts on homepage, can be 0
