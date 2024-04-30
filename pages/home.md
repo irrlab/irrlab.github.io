@@ -2,7 +2,7 @@
 layout: home
 title: Intelligence Representation & Reasoning Lab
 description: Gwangju Institute of Science and Technology (GIST)
-background: /assets/img/Hall_background.jpg
+background: /assets/img/trip2024/IMG_8656_2.png
 permalink: /
 ---
 
@@ -19,6 +19,7 @@ permalink: /
 <!--
 We are always looking for strongly self-motivated students who want to dive into research for deep and fundamental understanding of AI.
 -->
+There are currently no open positions.
 
 ---
 

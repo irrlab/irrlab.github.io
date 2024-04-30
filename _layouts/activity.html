@@ -3,54 +3,66 @@ layout: base
 description: Template for activitiess
 ---
 
-{{ content }}
+<!-- {{ content }} -->
 
-{% for activities in site.data.activities %}
-  <h5 id="{{ activities.title | strip | url_encode }}">
-    {{ activities.title }}
-    {% if activities.where %}
-    <!-- chnage format -->
-    <!-- <small class="text-muted">| {{ activities.where }}</small> -->
-    <p><small class="text-muted">{{ activities.where }}</small></p>
-    {% endif %}
-  </h5>
+<div class="container overflow-hidden media activities-paper">
+  {% for activities in site.data.activities %}
+  {% assign itemIndex = forloop.index0 %}
+  <div class="row my-3">
+    <!-- Image & Description -->
+    <!-- <img class="mr-3" src="{{ activities.image | relative_url }}" width="400"> -->
+    <div class="col-md-6">
+      {% if activities.images %}
+      {% assign items=activities.images %}
+      {% include carousel.html %}
+      {% endif %}
+    </div>
+    <div class="col-md-auto media-body">
+      <div class="row">
+        <!-- Title -->
+        <h4 id="{{ activities.title | strip | url_encode }}">
+          {{ activities.title }}
+          {% if activities.where %}
+          <!-- chnage format -->
+          <!-- <small class="text-muted">| {{ activities.where }}</small> -->
+          <p><small class="text-muted">{{ activities.where }}</small></p>
+          {% endif %}
+        </h4>
+        <ul class="list-inline">
+          {{ activities.description | markdownify }}
 
-  <div class="media activities-paper">
-    <img class="mr-3" src="{{ activities.image | relative_url }}" width="400" >
-    <div class="media-body">
-      <ul class="list-inline">
-        {{ activities.description | markdownify }}
+          {% if activities.abstract %}
+          <li class="list-item">
+            <p><span class="notbold">{{ activities.abstract }}<span /></p>
+          </li>
+          {% endif %}
+        </ul>
 
-        {% if activities.abstract %}
-        <li class="list-item">
-            <p><span class="notbold">{{ activities.abstract }}<span/></p>
-        </li>
-        {% endif %}
-      </ul>
+        <ul class="list-inline">
+          <b>Links: </b>
 
-      <ul class="list-inline">
-        <b>Links: </b>
+          {% if activities.paper %}
+          <li class="list-inline-item">
+            <a class="notbold" href="{{ activities.paper }}"><i class="fa fa-book"></i></a>
+          </li>
+          {% endif %}
 
-        {% if activities.paper %}
-        <li class="list-inline-item">
-          <a class="notbold" href="{{ activities.paper }}"><i class="fa fa-book"></i></a>
-        </li>
-        {% endif %}
+          {% if activities.code %}
+          <li class="list-inline-item">
+            <a class="notbold" href="{{ activities.code }}"><i class="fa fa-github"></i></a>
+          </li>
+          {% endif %}
 
-        {% if activities.code %}
-        <li class="list-inline-item">
-          <a class="notbold" href="{{ activities.code }}"><i class="fa fa-github"></i></a>
-        </li>
-        {% endif %}
-
-        {% if activities.youtube %}
-        <li class="list-inline-item">
-          <a class="notbold" href="{{ activities.youtube }}"><i class="fa fa-youtube"></i></a>
-        </li>
-        {% endif %}
-      </ul>
+          {% if activities.youtube %}
+          <li class="list-inline-item">
+            <a class="notbold" href="{{ activities.youtube }}"><i class="fa fa-youtube"></i></a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
   </div>
-{% endfor %}
+  {% endfor %}
+</div>
 
 <hr>

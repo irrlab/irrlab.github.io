@@ -2,14 +2,25 @@
 - title: '2023 Winter Workshop'
   #image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: Damyang, South Korea
+  images:
+    - assets/img/ksc2021/20211222_110906.jpg
+    - assets/img/ksc2021/20211222_110925.jpg
   #  youtube: None
 
 - title: '2022 Neurips'
   #image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: New Orleans, US 
+  images:
+    - assets/img/neurips2022/NeurIPS2022_사진01.jpg
+    - assets/img/neurips2022/NeurIPS2022_사진02.jpg
+    - assets/img/neurips2022/NeurIPS2022_사진03.jpg
+    - assets/img/neurips2022/NeurIPS2022_사진04.jpg
   #  youtube: None
   #
-- title: '2021 KIISE'
+- title: '2021 KSC'
   #image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: PyeongChang, South Korea
+  images:
+   - assets/img/workshop2023/20231222_164541.jpg
+   - assets/img/workshop2023/20231223_110008.jpg
   #  youtube: None
