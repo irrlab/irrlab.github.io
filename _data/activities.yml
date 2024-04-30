@@ -1,26 +1,41 @@
 # activity list
 - title: '2023 Winter Workshop'
-  #image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: Damyang, South Korea
   images:
-    - assets/img/ksc2021/20211222_110906.jpg
-    - assets/img/ksc2021/20211222_110925.jpg
-  #  youtube: None
+   - assets/img/workshop2023/20231222_164541.jpg
+   - assets/img/workshop2023/20231223_110008.jpg
+
+- title: '2023 Tea Time'
+  abstract: Summer, South Korea
+  images:
+    - assets/img/teatime2023/IMG_6355.JPG
+    - assets/img/teatime2023/IMG_6356.JPG
+    - assets/img/teatime2023/IMG_6357.PNG
+
+- title: '2023 KSC'
+  abstract: Summer, Jeju, South Korea
+  images:
+    - assets/img/ksc2023/IMG_5722.jpeg
+    - assets/img/ksc2023/IMG_5750.JPG
+    - assets/img/ksc2023/IMG_6190.JPG
 
 - title: '2022 Neurips'
-  #image: assets/img/publication/HeeJun_MIPET.jpg
   abstract: New Orleans, US 
   images:
     - assets/img/neurips2022/NeurIPS2022_사진01.jpg
     - assets/img/neurips2022/NeurIPS2022_사진02.jpg
     - assets/img/neurips2022/NeurIPS2022_사진03.jpg
     - assets/img/neurips2022/NeurIPS2022_사진04.jpg
-  #  youtube: None
-  #
-- title: '2021 KSC'
-  #image: assets/img/publication/HeeJun_MIPET.jpg
-  abstract: PyeongChang, South Korea
+
+- title: '2022 KSC'
+  abstract: Winter, Jeju, South Korea
   images:
-   - assets/img/workshop2023/20231222_164541.jpg
-   - assets/img/workshop2023/20231223_110008.jpg
-  #  youtube: None
+    - assets/img/ksc2022/IMG_4001.jpeg
+    - assets/img/ksc2022/IMG_4011.jpeg
+    - assets/img/ksc2022/IMG_4013.jpeg
+
+- title: '2021 KSC'
+  abstract: Winter, PyeongChang, South Korea
+  images:
+    - assets/img/ksc2021/20211222_110906.jpg
+    - assets/img/ksc2021/20211222_110925.jpg
