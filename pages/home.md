@@ -6,7 +6,8 @@ background: /assets/img/Hall_background.jpg
 permalink: /
 ---
 
-## **How to build a single accumulative intelligence <br>for more general and wider problems?**
+<h2 style="text-align: center; font-weight: bold">How to build a single accumulative intelligence <br>for more general and wider problems?</h2>
+<!-- ## **How to build a single accumulative intelligence <br>for more general and wider problems?** -->
 
 ![Main page img](assets/img/Lab_Vision.png)
 *modified at Jun 23, 2021*
@@ -22,11 +23,12 @@ We are always looking for strongly self-motivated students who want to dive into
 ---
 
 ## News
+TBD
 <!-- Content here would shop up above your list of posts -->
-24.01.20: ICLR 2024, "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation" <br/>
+<!-- 24.01.20: ICLR 2024, "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation" <br/>
 24.01.20: ICLR 2024, "Output-Domain Focused Inductive Bias on Latent Feature Clusters in Visual Classification."<br/>
 23.07.10: ESWA, "Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring"<br/>
-22.09.15: NeuRIPS2022, "Spherization Layer: Representation Using Only Angles" from NeurIPS 2022.<br/>
+22.09.15: NeuRIPS2022, "Spherization Layer: Representation Using Only Angles" from NeurIPS 2022.<br/> -->
 <!--
 	23.07.10: ELSEVIER ESWA, "Feature Structure Distillation with Centered Kernel Alignment in BERT Transferring"<br/>
 	22.09.15: NeurIPS, "Spherization Layer: Representation Using Only Angles"<br/>
@@ -47,3 +49,5 @@ We are always looking for strongly self-motivated students who want to dive into
 **3. Funding**
 ![fundings_logo](assets/img/Funding.png)
  -->
+
+## Recent publications
