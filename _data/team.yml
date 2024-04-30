@@ -19,8 +19,11 @@
   role: Ph.D. Candidate
   image: assets/img/team/jinwook.jpg
   description: >
-    **email**: jinwookpark2296*[at]*gmail*[dot]*com
+    **email**: jinwookpark2296*[at]*gmail*[dot]*com<br>
+    **Field**: Symbolic Relational Learning / Unsupervised Grammar Induction
   email: jinwookpark2296@gmail.com
+  github: mushclam
+  linkedin: https://www.linkedin.com/in/mushclam/
 
 - name: Heejun Jung
   role: Ph.D. Candidate
@@ -58,8 +61,10 @@
   role: M.S. Candidate
   image: assets/img/team/hyunyoung.jpg
   description: >
-    **email**: bonheur60*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: bonheur60*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
+    **Field**: Unsupervised Machine Translation
   email: bonheur60@gm.gist.ac.kr
+  github: bonheur60
 
 - name: Mingi Hong
   role: M.S. Candidate
