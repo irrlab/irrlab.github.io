@@ -6,22 +6,22 @@ description: Template for projects
 {{ content }}
 
 {% for project in site.data.project %}
-  <h5 id="{{ project.title | strip | url_encode }}">
-    {{ project.title }}
-    {% if project.where %}
-    <!-- chnage format -->
-    <!-- <small class="text-muted">| {{ project.where }}</small> -->
-    <p><small class="text-muted">{{ project.where }}</small></p>
-    {% endif %}
-  </h5>
+<h5 id="{{ project.title | strip | url_encode }}">
+  {{ project.title }}
+  {% if project.where %}
+  <!-- chnage format -->
+  <!-- <small class="text-muted">| {{ project.where }}</small> -->
+  <p><small class="text-muted">{{ project.where }}</small></p>
+  {% endif %}
+</h5>
 
-  <div class="media project-paper">
-    <img class="mr-3" src="{{ project.image | relative_url }}">
-    <div class="media-body">
-      <ul class="list-inline">
-        {{ project.description | markdownify }}
+<div class="media project-paper">
+  <img class="mr-3" src="{{ project.image | relative_url }}">
+  <div class="media-body">
+    <ul class="list-inline">
+      {{ project.description | markdownify }}
 
-<!--
+      <!--
         {% if project.abstract %}
         <li class="list-item">
           <details>
@@ -31,44 +31,44 @@ description: Template for projects
         </li>
         {% endif %}
 -->
-        {% if project.question %}
-        <li class="list-item">
-          <b>Question: <span class="notbold">{{ project.question }}<span/><b/>
-        </li>
-        {% endif %}
+      {% if project.question %}
+      <li class="list-item">
+        <b>Question: <span class="notbold">{{ project.question }}</span></b>
+      </li>
+      {% endif %}
 
-        {% if project.idea %}
-        <li class="list-item">
-          <b>Idea: <span class="notbold">{{ project.idea }}<span/><b/>
-        </li>
-        {% endif %}
+      {% if project.idea %}
+      <li class="list-item">
+        <b>Idea: <span class="notbold">{{ project.idea }}</span></b>
+      </li>
+      {% endif %}
 
-        {% if project.dataset %}
-        <li class="list-item">
-          <b>Dataset: <span class="notbold">{{ project.dataset }}</span></b>
-        </li>
-        {% endif %}
+      {% if project.dataset %}
+      <li class="list-item">
+        <b>Dataset: <span class="notbold">{{ project.dataset }}</span></b>
+      </li>
+      {% endif %}
 
-        {% if project.method %}
-        <li class="list-item">
-          <b>Method: <span class="notbold">{{ project.method }}</span></b>
-        </li>
-        {% endif %}
+      {% if project.method %}
+      <li class="list-item">
+        <b>Method: <span class="notbold">{{ project.method }}</span></b>
+      </li>
+      {% endif %}
 
-        {% if project.keywords %}
-        <li class="list-item">
-          <b>Keywords: <span class="notbold">{{ project.keywords }}</span></b>
-        </li>
-        {% endif %}
+      {% if project.keywords %}
+      <li class="list-item">
+        <b>Keywords: <span class="notbold">{{ project.keywords }}</span></b>
+      </li>
+      {% endif %}
 
-        {% if project.funding %}
-        <li class="list-item">
-          <b>funding: <span class="notbold">{{ project.funding }}</span></b>
-        </li>
-        {% endif %}
-      </ul>
+      {% if project.funding %}
+      <li class="list-item">
+        <b>funding: <span class="notbold">{{ project.funding }}</span></b>
+      </li>
+      {% endif %}
+    </ul>
 
-<!--
+    <!--
       <ul class="list-inline">
         <b>Links: </b>
 
@@ -91,8 +91,8 @@ description: Template for projects
         {% endif %}
       </ul>
 -->
-    </div>
   </div>
+</div>
 {% endfor %}
 
 <hr>
