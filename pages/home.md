@@ -2,7 +2,7 @@
 layout: home
 title: Intelligence Representation & Reasoning Lab
 description: Gwangju Institute of Science and Technology (GIST)
-background: /assets/img/trip2024/IMG_8656_2.png
+background: /assets/img/teatime2023/IMG_6355.JPG
 permalink: /
 ---
 
