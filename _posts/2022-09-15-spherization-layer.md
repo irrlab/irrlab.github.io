@@ -5,4 +5,4 @@ background: assets/img/publication/hoyong_sph.png
 tags: [NeurIPS 2022]
 ---
 
-No contents
+Spherization layer is an explicit solution for the dispersion to completely eliminate the interference of the Euclidean norms in training without drawbacks
