@@ -16,10 +16,10 @@ permalink: /
 
 
 ## Notice
+We are always looking for strongly self-motivated students for Ph.D., and Postdoctoral Program, who want to dive into research for deep and fundamental understanding of AI.
+If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com).
 <!--
-We are always looking for strongly self-motivated students who want to dive into research for deep and fundamental understanding of AI.
 -->
-There are currently no open positions.
 
 ---
 
