@@ -8,13 +8,13 @@ description: Template for projects
 {% for project in site.data.project %}
 <h5 id="{{ project.title | strip | url_encode }}">
 	<b> {{ project.title }} </b>
+<!--
   {% if project.where %}
   <!-- chnage format -->
-<!--
   <small class="text-muted">| {{ project.where }}</small> 
   <p><small class="text-muted">{{ project.where }}</small></p>
-  -->
   {% endif %}
+  -->
 </h5>
 
 <div class="media project-paper">
