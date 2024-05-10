@@ -7,7 +7,7 @@ description: Template for projects
 
 {% for project in site.data.project %}
 <h5 id="{{ project.title | strip | url_encode }}">
-  {{ project.title }}
+	<b> {{ project.title }} </b>
   {% if project.where %}
   <!-- chnage format -->
   <!-- <small class="text-muted">| {{ project.where }}</small> -->
@@ -19,9 +19,8 @@ description: Template for projects
   <img class="mr-3" src="{{ project.image | relative_url }}">
   <div class="media-body">
     <ul class="list-inline">
-      {{ project.description | markdownify }}
-
       <!--
+      {{ project.description | markdownify }}
         {% if project.abstract %}
         <li class="list-item">
           <details>
@@ -33,19 +32,19 @@ description: Template for projects
 -->
       {% if project.question %}
       <li class="list-item">
-        <b>Question: <span class="notbold">{{ project.question }}</span></b>
+	      <b>Question:</b> <span class="notbold">{{ project.question }}</span>
       </li>
       {% endif %}
 
       {% if project.idea %}
       <li class="list-item">
-        <b>Idea: <span class="notbold">{{ project.idea }}</span></b>
+	      <b>Idea:</b> <span class="notbold">{{ project.idea }}</span>
       </li>
       {% endif %}
 
       {% if project.dataset %}
       <li class="list-item">
-        <b>Dataset: <span class="notbold">{{ project.dataset }}</span></b>
+	      <b>Dataset:</b> <span class="notbold">{{ project.dataset }}</span>
       </li>
       {% endif %}
 
