@@ -8,11 +8,13 @@ description: Template for projects
 {% for project in site.data.project %}
 <h5 id="{{ project.title | strip | url_encode }}">
 	<b> {{ project.title }} </b>
+<!--
   {% if project.where %}
   <!-- chnage format -->
-  <!-- <small class="text-muted">| {{ project.where }}</small> -->
+  <small class="text-muted">| {{ project.where }}</small> 
   <p><small class="text-muted">{{ project.where }}</small></p>
   {% endif %}
+  -->
 </h5>
 
 <div class="media project-paper">
@@ -50,19 +52,19 @@ description: Template for projects
 
       {% if project.method %}
       <li class="list-item">
-        <b>Method: <span class="notbold">{{ project.method }}</span></b>
+	      <b>Method:</b> <span class="notbold">{{ project.method }}</span>
       </li>
       {% endif %}
 
       {% if project.keywords %}
       <li class="list-item">
-        <b>Keywords: <span class="notbold">{{ project.keywords }}</span></b>
+	      <b>Keywords:</b> <span class="notbold">{{ project.keywords }}</span>
       </li>
       {% endif %}
 
       {% if project.funding %}
       <li class="list-item">
-        <b>funding: <span class="notbold">{{ project.funding }}</span></b>
+	      <b>funding:</b>$ <span class="notbold">{{ project.funding }}</span>
       </li>
       {% endif %}
     </ul>
