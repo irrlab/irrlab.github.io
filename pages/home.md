@@ -24,7 +24,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 ---
 
 ## News
-TBD
+24.05.16: Congratulations! accepted ACL Findings 2024  "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction"
 <!-- Content here would shop up above your list of posts -->
 <!-- 24.01.20: ICLR 2024, "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation" <br/>
 24.01.20: ICLR 2024, "Output-Domain Focused Inductive Bias on Latent Feature Clusters in Visual Classification."<br/>
@@ -36,6 +36,8 @@ TBD
 	22.03.12: IEEE TNNLS, "Tackling the Challenges in Scene Graph Generation with Local-to-Global Interactions"<br/>
 	22.03.04: NRF Grant: "Development of AI for Canonicalized Expression of Trained Hypotheses by Resolving Ambiguity in Various Relation Levels of Representation Learning <br/>
 -->
+
+---
 
 <!--
 ## Research Infra
