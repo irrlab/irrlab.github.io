@@ -3,7 +3,7 @@ remote_theme: peterdesmet/petridish@3.0
 title: Intelligence Representation & Reasoning Lab  # Title in top navigation bar (navbar) and <head>
 description: GIST Intelligence Representation & Reasoning Lab website # Site description in <head>
 author: Peter Desmet                    # Used for copyright statement in footer
-url: "https://peterdesmet.github.io"  # No slash at the end
+url: "https://irrlab.github.io"  # No slash at the end
   # baseurl: "/petridish"                 # Only required if your site is on a subdomain e.g. https://username.github.io/sitename
   # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
@@ -39,6 +39,7 @@ exclude:
   - package-lock.json
   - package.json
   - petridish.gemspec
+  - favicon.ico
 
 # FRONTMATTER DEFAULTS
 defaults:
