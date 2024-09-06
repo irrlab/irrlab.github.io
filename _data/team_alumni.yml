@@ -65,20 +65,21 @@
   role: Undergrad. Intern
   image: assets/img/team/jiyoon.jpg
   description: >
-    **Current Position**: 
+    **Current Position**: MIT <br/>
   email: jiyoon2421@gmail.com
 
 - name: Hyungrok Jung
   role: Undergrad. Intern
   image: assets/img/team/hyungrok.jpg
   description: >
-    **Current Position**: 
+    **Current Position**: GIST <br/>
   email: None
   
 - name: Minchan Kwon
   role: Undergrad. Intern
   image: assets/img/team/minchan.jpg
   description: >
+    **Current Position**: KAIST <br/>
     **email**:
   email: None
 
@@ -86,5 +87,6 @@
   role: Undergrad. Intern
   image: assets/img/team/dongguk.jpg
   description: >
+    **Current Position**: KAIST <br/>
     **email**:
   email: None
