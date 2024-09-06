@@ -35,6 +35,7 @@
   image: assets/img/team/heejun.jpg
   description: >
     **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
+    **Field**: Disentanglement Learning / Generative Model / Symmetry Learning
   email: jungheejun93@gm.gist.ac.kr
   link: https://maroo-sky.github.io/
   github: maroo-sky
@@ -46,6 +47,7 @@
   image: assets/img/team/ilmin.jpg
   description: >
     **email**: kangilmin0325*[at]*gmail*[dot]*com
+    **Field**: Visual Understanding
   email: kangilmin0325@gmail.com
   github: IlminKang
   
@@ -54,6 +56,7 @@
   image: assets/img/team/junsik.jpg
   description: >
     **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **Field**: Knowledge Graph Learning and Embedding
   email: junsikkim@gm.gist.ac.kr
 
 - name: Youngmok Kim
@@ -68,7 +71,7 @@
   image: assets/img/team/hyunyoung.jpg
   description: >
     **email**: bonheur60*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
-    **Field**: Unsupervised Machine Translation
+    **Field**: Unsupervised Neural Machine Translation
   email: bonheur60@gm.gist.ac.kr
   github: bonheur60
 
@@ -77,6 +80,7 @@
   image: assets/img/team/mingi.jpg
   description: >
     **email**: alsrl5940*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **Field**: Federated Learning
   email: alsrl5940@gm.gist.ac.kr
 
 - name: Jaehyoung Jeong
@@ -84,6 +88,7 @@
   image: assets/img/team/jaehyoung.jpg
   description: >
     **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **Field**: Symmetry Learning / Geometric Analysis 
   email: jaehyoung98@gm.gist.ac.kr
 
 - name: Jisung Son
@@ -98,4 +103,5 @@
   image: assets/img/team/seungju.jpg
   description: >
     **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **Field**: Visual and Symbolic Reasoning 
   email: robin990510@gm.gist.ac.kr
