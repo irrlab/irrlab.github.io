@@ -21,7 +21,6 @@ We are always looking for strongly self-motivated students for Ph.D., and Postdo
 If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com).
 -->
 
----
 
 ## Join Us!
 We are always looking for strongly self-motivated students for Ph.D., and Postdoctoral Program, who want to dive into research for deep and fundamental understanding of AI. 
