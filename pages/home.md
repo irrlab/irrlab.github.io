@@ -27,7 +27,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 We are always looking for strongly self-motivated students for Ph.D., and Postdoctoral Program, who want to dive into research for deep and fundamental understanding of AI. 
 If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com).
 If you are GIST undergraduate students, please watch this video for internship. 
-![this video](https://youtu.be/DzTm0Xl-Yjg)
+[this video](https://youtu.be/DzTm0Xl-Yjg)
 <!--
 -->
 

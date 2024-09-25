@@ -6,7 +6,7 @@
   description: > # Can be Markdown
     **email**: kangil.kim.01*[at]*gmail*[dot]*com / kikim01*[at]*gist*[dot]*ac*[dot]*kr
   email: kangil.kim.01@gmail.com
-  link: https://irr.github.io/people/professor
+  link: https://irrlab.github.io/people/professor
 
 - name: Hoyong Kim
   role: Ph.D. Candidate
@@ -34,7 +34,7 @@
   role: Ph.D. Candidate
   image: assets/img/team/heejun.jpg
   description: >
-    **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com
+    **email**: jungheejun93*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / heejun.jung93*[at]*gmail*[dot]*com<br>
     **Field**: Disentanglement Learning / Generative Model / Symmetry Learning
   email: jungheejun93@gm.gist.ac.kr
   link: https://maroo-sky.github.io/
@@ -46,7 +46,7 @@
   role: Ph.D. Candidate
   image: assets/img/team/ilmin.jpg
   description: >
-    **email**: kangilmin0325*[at]*gmail*[dot]*com
+    **email**: kangilmin0325*[at]*gmail*[dot]*com<br>
     **Field**: Visual Understanding
   email: kangilmin0325@gmail.com
   github: IlminKang
@@ -55,7 +55,7 @@
   role: M.S. Candidate
   image: assets/img/team/junsik.jpg
   description: >
-    **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
     **Field**: Knowledge Graph Learning and Embedding
   email: junsikkim@gm.gist.ac.kr
 
@@ -79,7 +79,7 @@
   role: M.S. Candidate
   image: assets/img/team/mingi.jpg
   description: >
-    **email**: alsrl5940*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: alsrl5940*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
     **Field**: Federated Learning
   email: alsrl5940@gm.gist.ac.kr
 
@@ -87,7 +87,7 @@
   role: M.S. Candidate
   image: assets/img/team/jaehyoung.jpg
   description: >
-    **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
     **Field**: Symmetry Learning / Geometric Analysis 
   email: jaehyoung98@gm.gist.ac.kr
 
@@ -102,6 +102,6 @@
   role: M.S. Candidate
   image: assets/img/team/seungju.jpg
   description: >
-    **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
+    **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
     **Field**: Visual and Symbolic Reasoning 
   email: robin990510@gm.gist.ac.kr
