@@ -1,4 +1,17 @@
 # activity list
+- title: '2024 ICLR'
+  abstract: Wien, Austria
+  images:
+   - assets/img/iclr2024/20240510_175213.jpg
+   - assets/img/iclr2024/20240508_103454.jpg
+   - assets/img/iclr2024/IMG_8973.jpg
+
+- title: '2024 Tea Time'
+  abstract: Spring, South Korea
+  images:
+   - assets/img/teatime2024/2.jpg
+   - assets/img/teatime2024/2.jpg
+
 - title: '2023 Winter Workshop'
   abstract: Damyang, South Korea
   images:
@@ -19,7 +32,7 @@
     - assets/img/ksc2023/IMG_5750.JPG
     - assets/img/ksc2023/IMG_6190.JPG
 
-- title: '2022 Neurips'
+- title: '2022 NeurIPS'
   abstract: New Orleans, US 
   images:
     - assets/img/neurips2022/NeurIPS2022_사진01.jpg

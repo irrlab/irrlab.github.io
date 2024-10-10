@@ -55,6 +55,20 @@
     **email**: leesemi0719*[at]*gmail*[dot]*com
   email: leesemi0719@gmail.com
 
+- name: Hyunyoung Bae
+  role: M.S. 
+  image: assets/img/team/hyunyoung.jpg
+  description: >
+    **Current Position**:
+  email: none
+
+- name: Mingi Hong
+  role: M.S. 
+  image: assets/img/team/mingi.jpg
+  description: >
+    **Current Position**:
+  email: none
+
 - name: Somi Jin
   role: Undergrad. Intern
   description: >
