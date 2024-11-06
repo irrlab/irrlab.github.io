@@ -33,6 +33,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 ---
 
 ## News
+2024.11.06: Congratulation! accepted paper by TMLR, "CFASL: Composite Factor-Aligned Symmetry Learning for Disentanglement in Variational AutoEncoder"
 24.05.16: Congratulations! accepted ACL Findings 2024  "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction"
 <!-- Content here would shop up above your list of posts -->
 <!-- 24.01.20: ICLR 2024, "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation" <br/>
