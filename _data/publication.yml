@@ -1,5 +1,19 @@
 # Publications list
-- title: Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction
+- title: 'CFASL: Composite Factor-Aligned Symmetry Learning for Disentanglement in Variational AutoEncoder'
+  where: Transactions on Machine Learning Research
+  image: assets/img/publication/HeeJun_CFASL.jpg
+  abstract: >
+    Symmetries of input and latent vectors have provided valuable insights for disentanglement learning in VAEs. However, only a few works were proposed as an unsupervised method, and even these works require known factor information in training data. We propose a novel method, Composite Factor-Aligned Symmetry Learning (CFASL), which is integrated into VAEs for learning symmetry-based disentanglement in unsupervised learning without any knowledge of the dataset factor information. CFASL incorporates three novel features for learning symmetry-based disentanglement: 1) Injecting inductive bias to align latent vector dimensions to factor-aligned symmetries within an explicit learnable symmetry code-book 2) Learning a composite symmetry to express unknown factors change between two random samples by learning factor-aligned symmetries within the codebook 3) Inducing group equivariant encoder and decoder in training VAEs with the two conditions. In addition, we propose an extended evaluation metric for multi-factor changes in comparison to disentanglement evaluation in VAEs. In quantitative and in-depth qualitative analysis, CFASL demonstrates a significant improvement of disentanglement in single-factor change, and multi-factor change conditions compared to state-of-the-art methods.
+  question: How can we perform symmetry-based disentanglement without known factor information? 
+  idea: implement disentanglement learning of inductive bias vector instead of VAE
+  dataset: dSprite, CelebA, Cars3D, smallNORB
+  method: define the input and optimize the symmetry, and inject it as inductive bias
+  keywords: disentanglement learning, symmetry (group theory), variational auto-encoder.
+  paper: https://openreview.net/forum?id=mDGvrH7lju
+  code: https://github.com/GIST-IRR/CFASL
+  youtube: https://youtu.be/R03AoD3SRZ8
+
+- title: 'Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction'
   where: The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024) Findings
   image: assets/img/publication/jinwook_pftnpcfg.jpg # Can be external link
   abstract: >
@@ -12,7 +26,7 @@
   paper: https://arxiv.org/abs/2407.16181
   code: https://github.com/GIST-IRR/Parse-Focusing
 
-- title: Label-Focused Inductive Bias over Latent Object Features in Visual Classification
+- title: 'Label-Focused Inductive Bias over Latent Object Features in Visual Classification'
   where: The Twelfth International Conference on Learning Representations (ICLR 2024)
   image: assets/img/publication/ilmin_llb.jpg # Can be external link
   abstract: >
