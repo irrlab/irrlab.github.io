@@ -33,7 +33,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 ---
 
 ## News
-25.01.16: Sungmin Moon, Junbo Kwon, Jongmin park, Minwoo Kang joined our lab.
+25.01.16: Sungmin Moon, Junbo Kwon, Jongmin park, Minwoo Kang joined our lab. <br/>
 24.11.06: Congratulation! accepted paper by TMLR, "CFASL: Composite Factor-Aligned Symmetry Learning for Disentanglement in Variational AutoEncoder" <br/>
 24.05.16: Congratulations! accepted ACL Findings 2024  "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction"
 <!-- Content here would shop up above your list of posts -->
