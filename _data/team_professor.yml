@@ -44,6 +44,10 @@
       <b>[ACL Findings]</b> J. Park, and K. Kim.,  "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction", 2024<br/>
       <b>[ICLR]</b> I. Kang, H. Bae, and K. Kim. "Label-Focused Inductive Bias over Latent Object Features in Visual Classification", 2024<br/>
       <b>[ICLR]</b> H. Kim, and K. Kim. "Fixed Non-negative Orthogonal Classifier: Inducing Zero-mean Neural Collapse with Feature Dimension Separation", 2024<br/>
+      <b>[CoLLAS (workshop)]</b> Asymptotic Midpoint Mixup for Margin Balancing and Moderate Broadening, H Kim, S Lee, K Kim, 2024<br/>
+      <b>[CoLLAS (workshop)]</b> Revisiting Softmax Masking: Stop Gradient for Enhancing Stability in Replay-based Continual Learning, H Kim, M Kwon, K Kim, 2024<br/>
+      <b>[arxiv]</b> Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs, HJ Jung, K Kim,	2024<br/>
+      <b>[arxiv]</b> Enhancing Accuracy and Robustness through Adversarial Training in Class Incremental Continual Learning, M Kwon, K Kim, 2023<br/>
       <b>[ESWA]</b> H.-J. Jung, D. Kim, S.-H. Na, and K. Kim. Feature structure distillation for bert transferring. 2023<br/>
       <b>[NeuRIPS]</b> H. Kim, and K. Kim. "Spherization Layer: Representation Using Only Angles", NeurIPS 2022. <br/>
       <b>[IEEE TNNLS]</b> S. Woo, J. Noh, and K. Kim. Tackling the challenges in scene graph generation with local-to-global interactions. 2022.<br/>
