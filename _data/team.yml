@@ -74,17 +74,42 @@
     **Field**: Symmetry Learning / Geometric Analysis 
   email: jaehyoung98@gm.gist.ac.kr
 
-- name: Jisung Son
-  role: M.S. Candidate
-  image: assets/img/team/jisung.jpg
-  description: >
-    **email**: jisung9973*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr
-  email: jisung9973@gm.gist.ac.kr
-
 - name: Seungju Bang
   role: M.S. & Ph.D. Integrated Program
   image: assets/img/team/seungju.jpg
   description: >
     **email**: robin990510*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
-    **Field**: Visual and Symbolic Reasoning 
+    **Field**: Visual and Symbolic Reasoning
   email: robin990510@gm.gist.ac.kr
+
+- name: SungMin Mun
+  role: M.S. & Ph.D. Integrated Program
+  image: assets/img/team/sungmin.png
+  description: >
+    **email**: smmoon2000*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
+  email: smmoon2000@gm.gist.ac.kr
+
+- name: Minwoo Kang
+  role: M.S. Candidate
+  image: assets/img/team/minwoo.jpg
+  description: >
+    **email**: kmo8179*[at]*gmail*[dot]*com<br>
+  email: kmo8179@gamil.com
+  github: hemaher0
+
+- name: Jongmin Park
+  role: M.S. Candidate
+  image: assets/img/team/jongmin.jpg
+  description: >
+    **email**: pjmin0101*[at]*gmail*[dot]*com<br>
+    **Field**: Model Compression / Generaive Model
+  email: pjmin0101@gamil.com
+
+- name: Junbo Kwon
+  role: M.S. Candidate
+  image: assets/img/team/junbo.jpeg
+  description: >
+    **email**: kyle000603*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr / ms.gist.kyle*[at]*gmail*[dot]*com<br>
+    **Field**: Diffusion Model
+    email: kyle000603@gm.gist.ac.kr
+    github: kyle000603
