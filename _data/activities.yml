@@ -1,4 +1,9 @@
 # activity list
+- title: '2025 Spring Workshop'
+  abstact: Damyang, South Korea
+  images:
+    - assets/img/workshpe2025/20250705_105010.jpg
+
 - title: '2024 ICLR'
   abstract: Wien, Austria
   images:
