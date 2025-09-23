@@ -34,6 +34,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 
 ## News
 <div>
+25.09.23: Congratulation! accepted Neurips 2025 paper "Preference Distillation via Value based Reinforcement Learning" <br/>
 25.08.27: Congratulation! accepted Expert Systems with Applications "What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection" <br/>
 25.08.21: Congratulation! accepted EMNLP 2025 "Probability Distribution Collapse: A Critical Bottleneck to Compact Unsupervised Neural Grammar Induction" <br/>
 25.05.16: Congratulation! accepted ACL 2025 "RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph" <br/>
