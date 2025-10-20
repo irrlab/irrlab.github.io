@@ -1,4 +1,17 @@
 # Publications list
+- title: 'Probability Distribution Collapse: A Critical Bottleneck to Compact Unsupervised Neural Grammar Induction'
+  where: The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025) Main
+  image: assets/img/publication/jinwook_pdc.jpg # Can be external link
+  abstract: >
+    Unsupervised neural grammar induction aims to learn interpretable hierarchical structures from language data. However, existing models face an expressiveness bottleneck, often resulting in unnecessarily large yet underperforming grammars. We identify a core issue, **probability distribution collapse**, as the underlying cause of this limitation. We analyze when and how the collapse emerges across key components of neural parameterization and introduce a targeted solution, **collapse-relaxing neural parameterization**, to mitigate it. Our approach substantially improves parsing performance while enabling the use of significantly more compact grammars across a wide range of languages, as demonstrated through extensive empirical analysis.
+  question: Are current neural grammars truly utilizing their capacity? How can we enable them to learn more compact and effective grammars by utilizing whole capacity?
+  idea: Probability distribution collapse hinder that the models utilize the whole capacity of neural model. We analyze when and how the collapse emerges and propose simple solution to relax the collapse.
+  dataset: PTB, CTB, SPMRL
+  method: Collapse-Relaxing Neural Parameterization
+  keywords: Unsupervised grammar induction, Probability Distribution Collapse
+  paper: https://arxiv.org/abs/2509.20734
+  code: https://github.com/GIST-IRR/CRNP
+  
 - title: 'RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph'
   where: The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)
   image: assets/img/publication/junsik_RSCF.svg
