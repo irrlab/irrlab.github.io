@@ -10,7 +10,7 @@ permalink: /
 <!-- ## **How to build a single accumulative intelligence <br>for more general and wider problems?** -->
 
 ![Main page img](assets/img/Lab_Vision.png)
-*modified at Jun 23, 2021*
+*Since 2016*
 
 ---
 
@@ -34,9 +34,9 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 
 ## News
 <div>
-25.01.29: Contratulation! AISTATS acceptance "Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs" <br/>
-25.01.29: Contratulation! ICLR acceptance "Symmetric Space Learning for Combinatorial Generalization" <br/>
-25.01.29: Welcome! Jeunghyun Kim, Suyun Kim joined our lab. <br/>
+26.01.29: Contratulation! AISTATS acceptance "Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs" <br/>
+26.01.29: Contratulation! ICLR acceptance "Symmetric Space Learning for Combinatorial Generalization" <br/>
+26.01.29: Welcome! Jeunghyun Kim, Suyun Kim joined our lab. <br/>
 25.09.23: Congratulation! accepted Neurips 2025 paper "Preference Distillation via Value based Reinforcement Learning" <br/>
 25.08.27: Congratulation! accepted Expert Systems with Applications "What and When to Look?: Temporal Span Proposal Network for Video Visual Relation Detection" <br/>
 25.08.21: Congratulation! accepted EMNLP 2025 "Probability Distribution Collapse: A Critical Bottleneck to Compact Unsupervised Neural Grammar Induction" <br/>
