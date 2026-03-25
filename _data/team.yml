@@ -113,3 +113,22 @@
     **Field**: Diffusion Model
   email: kyle000603@gm.gist.ac.kr
   github: kyle000603
+
+- name: Suyun Kim
+  role: M.S. Candidate
+  image: assets/img/team/suyun.jpeg
+  description: >
+    **email**: suyunkim0723@gm.gist.ac.kr<br>
+    **Field**: Representational Universals, Probabilistic Linguistic Structures
+  email: suyunkim0723@gm.gist.ac.kr
+  link: https://scholar.google.com/citations?hl=ko&user=vIcEw_sAAAAJ
+  github: KimSuYun0723
+  linkedin: https://www.linkedin.com/in/suyun-kim-b2b283297
+
+- name: Jeonghyun Kim
+  role: M.S. Candidate
+  image: assets/img/team/jeonghyun.jpeg
+  description: >
+    **email**: jeonghyunkim@gm.gist.ac.kr<br>
+    **Field**: Knowledge Graph Learning
+  email: Knowledge Graph Learning
