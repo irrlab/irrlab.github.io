@@ -1,5 +1,96 @@
 # Publications list
+
+- title: 'Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs'
+  where: The 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026)
+  image: assets/img/publication/heejun_miet.jpg
+  abstract: >
+    Disentanglement learning is a core issue for understanding and re-using trained
+    information in Variational AutoEncoder (VAE), and effective inductive bias has
+    been reported as a key factor. However, the actual implementation of such bias is
+    still vague. We propose Multiple Invertible and Equivariant transformation (MIE-transformation),
+    which injects inductive bias by: 1) guaranteeing invertibility of latent-to-latent
+    transformation while preserving equivariance of input-to-latent transformation via
+    symmetric matrix exponential (IE-transformation), 2) extending prior and posterior
+    to unrestricted forms through learnable conversion to an approximated exponential
+    family (EF-conversion), and 3) integrating multiple units of IE-transformation and
+    EF-conversion. MIE-transformation can be simply inserted into existing VAEs and
+    improves disentanglement performance across various benchmarks.
+
+  question: How can we inject effective inductive bias for unsupervised disentanglement learning in VAEs, given that prior methods lack clear implementation of such bias and unrestricted latent transformations break equivariance?
+  idea: Use symmetric matrix exponential (e^S where S is symmetric) as the latent-to-latent transformation function. This guarantees invertibility while preserving equivariance over a subset of symmetries (Proposition 1-3). EF-conversion then enables training with arbitrary latent distributions by approximating them as exponential family.
+  dataset: dSprites, 3D Shapes, 3D Cars
+  method: MIE-transformation (Symmetric Matrix Exponential IE-transformation + Exponential Family Conversion + Multiple Unit Integration)
+  keywords: Disentanglement, Variational AutoEncoder, Equivariance, Invertibility, Matrix Exponential, Exponential Family, Inductive Bias
+  paper: https://openreview.net/forum?id=9ts90B3xUvP
+  code:
+
+
+- title: 'Symmetric Space Learning for Combinatorial Generalization'
+  where: The 2026 International Conference on Learning Representations (ICLR 2026)
+  image: assets/img/publication/jaehyung_cartanfm.jpg
+  abstract: >
+  Combinatorial generalization (CG)—generalizing to unseen combinations of
+  known semantic factors—remains a fundamental challenge in machine learning.
+  While symmetry-based methods are promising, they learn from observed data and
+  thus fail at what we term symmetry generalization: extending learned symmetries
+  to novel data. We address this by proposing a novel framework that endows the
+  latent space with the structure of a symmetric space. This class of manifolds
+  provides a principled geometric foundation for extending learned symmetries. Our
+  method operates in two steps: first, it imposes this structure by learning the underlying algebraic properties via the Cartan decomposition of a learnable Lie
+  algebra. Second, it uses geodesic symmetry as a powerful self-supervisory signal
+  to ensure this learned structure extrapolates from observed samples to unseen ones.
+  A detailed analysis on a synthetic dataset validates our geometric claims, and experiments on standard CG benchmarks show our method significantly outperforms
+  existing approaches.
+
+  question: How can we extend learned symmetries beyond observed training data to achieve combinatorial generalization? Existing symmetry-based methods are confined to the training distribution and cannot generalize to unseen factor combinations.
+  idea: Impose symmetric space structure on the latent manifold. The Cartan Loss enforces valid algebraic structure via Lie bracket relations, while the Geodesic Symmetry Consistency (GSC) Loss leverages the geometric property that geodesic symmetry corresponds to negation in tangent space, enabling extrapolation to unseen regions.
+  dataset: dSprites, 3D Shapes, MPI3D, 3D Sphere 
+  method: CartanFM (Cartan Loss + Geodesic Symmetry Consistency Loss + Conditional Flow Matching)
+  keywords: Combinatorial Generalization, Symmetric Space, Lie Algebra, Cartan Decomposition, Geodesic Symmetry, Flow Matching
+  paper: https://openreview.net/forum?id=e8t9F4vX9N
+  code: https://github.com/GIST-IRR/CartanFM
+  
+
+- title: 'Preference Distillation via Value based Reinforcement Learning'
+  where: The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)
+  image: assets/img/publication/minchan_tvkd.jpg
+  abstract: >
+    Direct Preference Optimization (DPO) is a powerful paradigm to align language
+    models with human preferences using pairwise comparisons. However, its binary
+    win-or-loss supervision often proves insufficient for training small models with
+    limited capacity. Prior works attempt to distill information from large teacher
+    models using behavior cloning or KL divergence. These methods often focus on
+    mimicking current behavior and overlook distilling reward modeling. To address
+    this issue, we propose Teacher Value-based Knowledge Distillation (TVKD), which
+    introduces an auxiliary reward from the value function of the teacher model to
+    provide a soft guide. This auxiliary reward is formulated to satisfy potential-based
+    reward shaping, ensuring that the global reward structure and optimal policy of
+    DPO are preserved. TVKD can be integrated into the standard DPO training
+    framework and does not require additional rollouts.
+
+  question: How can we effectively distill preference alignment from large teacher models to small student models, given that DPO's binary supervision is too coarse and prior KD methods focus on behavior imitation rather than reward modeling?
+  idea: Use the teacher's value function as auxiliary reward via potential-based reward shaping (PBRS). The shaping term ψ(s,a) = V_φ(s') - V_φ(s) provides soft sequence-level guidance while theoretically preserving the optimal policy, unlike action-dependent terms (e.g., log π or Q) which violate policy invariance.
+  dataset: DPO-MIX-7K, HelpSteer2
+  method: TVKD (Teacher Value-based Knowledge Distillation with PBRS-compliant auxiliary reward integrated into DPO loss)
+  keywords: Preference Distillation, Direct Preference Optimization, Value Function, Potential-based Reward Shaping, Knowledge Distillation, Small Language Models
+  paper: https://openreview.net/forum?id=f4GBN307sm
+  code:
+
+
 - title: 'Probability Distribution Collapse: A Critical Bottleneck to Compact Unsupervised Neural Grammar Induction'
+  where: The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025) Main
+  image: assets/img/publication/jinwook_pdc.jpg # Can be external link
+  abstract: >
+    Unsupervised neural grammar induction aims to learn interpretable hierarchical structures from language data. However, existing models face an expressiveness bottleneck, often resulting in unnecessarily large yet underperforming grammars. We identify a core issue, **probability distribution collapse**, as the underlying cause of this limitation. We analyze when and how the collapse emerges across key components of neural parameterization and introduce a targeted solution, **collapse-relaxing neural parameterization**, to mitigate it. Our approach substantially improves parsing performance while enabling the use of significantly more compact grammars across a wide range of languages, as demonstrated through extensive empirical analysis.
+  question: Are current neural grammars truly utilizing their capacity? How can we enable them to learn more compact and effective grammars by utilizing whole capacity?
+  idea: Probability distribution collapse hinder that the models utilize the whole capacity of neural model. We analyze when and how the collapse emerges and propose simple solution to relax the collapse.
+  dataset: PTB, CTB, SPMRL
+  method: Collapse-Relaxing Neural Parameterization
+  keywords: Unsupervised grammar induction, Probability Distribution Collapse
+  paper: https://arxiv.org/abs/2509.20734
+  code: https://github.com/GIST-IRR/CRNP
+
+- title: 'Preference Distillation via Value based Reinforcement Learning'
   where: The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025) Main
   image: assets/img/publication/jinwook_pdc.jpg # Can be external link
   abstract: >
