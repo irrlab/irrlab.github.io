@@ -53,7 +53,7 @@
 
 - title: 'Preference Distillation via Value based Reinforcement Learning'
   where: The 39th Conference on Neural Information Processing Systems (NeurIPS 2025)
-  image: assets/img/publication/minchan_tvkd.jpg
+  image: assets/img/publication/minchan_tvkd.jpeg
   abstract: >
     Direct Preference Optimization (DPO) is a powerful paradigm to align language
     models with human preferences using pairwise comparisons. However, its binary
