@@ -29,18 +29,18 @@
   where: The 2026 International Conference on Learning Representations (ICLR 2026)
   image: assets/img/publication/jaehyung_cartanfm.jpg
   abstract: >
-  Combinatorial generalization (CG)—generalizing to unseen combinations of
-  known semantic factors—remains a fundamental challenge in machine learning.
-  While symmetry-based methods are promising, they learn from observed data and
-  thus fail at what we term symmetry generalization: extending learned symmetries
-  to novel data. We address this by proposing a novel framework that endows the
-  latent space with the structure of a symmetric space. This class of manifolds
-  provides a principled geometric foundation for extending learned symmetries. Our
-  method operates in two steps: first, it imposes this structure by learning the underlying algebraic properties via the Cartan decomposition of a learnable Lie
-  algebra. Second, it uses geodesic symmetry as a powerful self-supervisory signal
-  to ensure this learned structure extrapolates from observed samples to unseen ones.
-  A detailed analysis on a synthetic dataset validates our geometric claims, and experiments on standard CG benchmarks show our method significantly outperforms
-  existing approaches.
+    Combinatorial generalization (CG)—generalizing to unseen combinations of
+    known semantic factors—remains a fundamental challenge in machine learning.
+    While symmetry-based methods are promising, they learn from observed data and
+    thus fail at what we term symmetry generalization: extending learned symmetries
+    to novel data. We address this by proposing a novel framework that endows the
+    latent space with the structure of a symmetric space. This class of manifolds
+    provides a principled geometric foundation for extending learned symmetries. Our
+    method operates in two steps: first, it imposes this structure by learning the underlying algebraic properties via the Cartan decomposition of a learnable Lie
+    algebra. Second, it uses geodesic symmetry as a powerful self-supervisory signal
+    to ensure this learned structure extrapolates from observed samples to unseen ones.
+    A detailed analysis on a synthetic dataset validates our geometric claims, and experiments on standard CG benchmarks show our method significantly outperforms
+    existing approaches.
 
   question: How can we extend learned symmetries beyond observed training data to achieve combinatorial generalization? Existing symmetry-based methods are confined to the training distribution and cannot generalize to unseen factor combinations.
   idea: Impose symmetric space structure on the latent manifold. The Cartan Loss enforces valid algebraic structure via Lie bracket relations, while the Geodesic Symmetry Consistency (GSC) Loss leverages the geometric property that geodesic symmetry corresponds to negation in tangent space, enabling extrapolation to unseen regions.
