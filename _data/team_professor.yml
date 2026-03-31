@@ -13,7 +13,8 @@
 
     #### Research Interest
 
-    generally applicable intelligence model representation, optimization and regularization, model complexity, probabilistic and representation analysis.<br/>
+    generally applicable intelligence model representation, optimization and regularization, model complexity, probabilistic and representation analysis.
+    Relation & structure learning and reasoning. <br/>
     <br/>
 
     #### Research Area
@@ -40,6 +41,11 @@
 
     #### Publications
     - <b>Selected</b> <br/>
+      <b>[AISTATS]</b> H. J. Jung,  and K. Kim, "Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs", 2026 <br/>
+      <b>[ICLR]</b> J. Jeong, H. J. Jung,  and K. Kim, "Symmetric Space Learning for Combinatorial Generalization", 2026 <br/>
+      <b>[NeuRIPS]</b> M. Kwon, J. Ko, K. Kim, and J. Kim, "Preference Distillation via Value based Reinforcement Learning", 2025 <br/>
+      <b>[EMNLP]</b> J. Park, and K. Kim, "Probability Distribution Collapse: A Critical Bottleneck to Compact Unsupervised Neural Grammar Induction", 2025 <br/>
+      <b>[ACL]</b> J. Kim, J. Park, and K. Kim, "RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph", 2025 <br/>
       <b>[TMLR]</b> H.-J. Jung, J. Jeong, and K. Kim, "CFASL: Composite Factor-Aligned Symmetry Learning for Disentanglement in Variational AutoEncoder", 2024 <br/>
       <b>[ACL Findings]</b> J. Park, and K. Kim.,  "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction", 2024<br/>
       <b>[ICLR]</b> I. Kang, H. Bae, and K. Kim. "Label-Focused Inductive Bias over Latent Object Features in Visual Classification", 2024<br/>
@@ -64,7 +70,7 @@
     #### Main Projects
 
     - <b>Model Analysis</b> <br/>
-    **2024~2025** Theoretical Stagnation of Foundation Models <br/>  
+    **2024~2025** Theoretical Stagnation of Foundation Models (US National Lab) <br/>  
     **2022~2027** Representation Analysis for Learning Canonicalized Representations (NRF) <br/>  
     **2019~2021** Neural Networks for General Knowledge Accummulation (GIST, NRF) <br/>  
     **2016~2016** Improvement of Expression Power of Infinite Probabilistic Context Free Grammar (NRF) <br/> 
