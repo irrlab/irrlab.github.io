@@ -56,7 +56,7 @@
   image: assets/img/team/junsik.jpg
   description: >
     **email**: junsikkim*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
-    **Field**: Knowledge Graph Learning and Embedding
+    **Field**: Knowledge Graph Representation
   email: junsikkim@gm.gist.ac.kr
 
 - name: Youngmok Kim
@@ -73,6 +73,9 @@
     **email**: jaehyoung98*[at]*gm*[dot]*gist*[dot]*ac*[dot]*kr<br>
     **Field**: Symmetry Learning / Geometric Analysis 
   email: jaehyoung98@gm.gist.ac.kr
+  linkedin: https://www.linkedin.com/in/jaehyoung-jeong-3116982a1
+  link: https://lynalpha.github.io/
+  github: https://github.com/LynAlpha
 
 - name: Seungju Bang
   role: M.S. & Ph.D. Integrated Program

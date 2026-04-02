@@ -100,8 +100,8 @@
   dataset: FB15k-237, WN18RR, YAGO3-10
   method: Relation-Semantics Consistent Filter (RSCF)
   keywords: Knowledge graph completion, Knowledge graph embedding
-  paper: https://arxiv.org/abs/2505.20813
-  code: ttps://github.com/GIST-IRR/RSCF
+  paper: https://aclanthology.org/2025.acl-long.602.pdf
+  code: https://github.com/GIST-IRR/RSCF
 
 - title: 'CFASL: Composite Factor-Aligned Symmetry Learning for Disentanglement in Variational AutoEncoder'
   where: Transactions on Machine Learning Research
