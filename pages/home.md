@@ -34,6 +34,8 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 
 ## News
 <div>
+26.05.07: Congratulation! ICML 2026 Regular Paper Acceptance "Factor-Wise Homogeneity of Slot-Attention for Continual Object-Centric Learning"
+26.05.07: Congratulation! ICML 2026 Regular Paper Acceptance "Layer-Centric Factors of Variation Disentanglement for Task- and Model-Agnostic Generalization"
 26.01.29: Contratulation! AISTATS acceptance "Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs" <br/>
 26.01.29: Contratulation! ICLR acceptance "Symmetric Space Learning for Combinatorial Generalization" <br/>
 26.01.29: Welcome! Jeunghyun Kim, Suyun Kim joined our lab. <br/>
