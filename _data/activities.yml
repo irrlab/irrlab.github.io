@@ -1,4 +1,9 @@
 # activity list
+- title: '2026 ICML'
+  abstact: Summer, Seoul, South Korea
+  images:
+    - assets/img/icml2026/1000023820.jpg
+
 - title: '2025 Fall Workshop'
   abstact: Gwangju, South Korea
   images:
