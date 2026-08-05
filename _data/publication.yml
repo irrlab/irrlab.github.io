@@ -1,5 +1,83 @@
 # Publications list
 
+- title: Layer-Centric Factors of Variation Disentanglement for Task- and Model-Agnostic Generalization
+  where: Forty-Third International Conference on Machine Learning (ICML 2026)
+  image: assets/img/publication/heejun_lcv.jpg
+  abstract: >
+    Disentanglement learning aims to separate the underlying factors of variation (FoV) to improve
+    generalization. However, most FoV-based latentvector-centric methods impose objective-driven
+    constraints at a bottleneck, and it is difficult to
+    translate disentanglement into consistent gains on
+    downstream tasks without inductive bias. Motivated by architectural approaches complementary
+    to vector-centric objectives for downstream tasks,
+    we propose the Orthogonal Subspaces Projection(OSP) layer, a plug-and-play module that integrates into intermediate layers and promotes FoV
+    separation by projecting latent features into mutually orthogonal subspaces. Across diverse domains and tasks, models equipped with the OSP
+    layer improve disentanglement quality and generalization in downstream tasks, including computer
+    vision (classification, detection, and segmentation), natural language processing (word analogy,
+    and text classification), and fine-tuning settings
+    on large backbones.
+  question: How can disentanglement be induced throughout intermediate layers so that it consistently improves downstream generalization across tasks and architectures?
+  idea: Project intermediate features into mutually orthogonal subspaces to separate factors of variation while efficiently learning only shared low-dimensional rotations.
+  dataset: 3D Shapes, MPI3D, CIFAR-100, ImageNet, CarParts, MS COCO, WikiText, SAT, U2, U4, Google, BATS, and GLUE.
+  method: Orthogonal Subspaces Projection (OSP) layer (fixed orthogonal basis + Cayley-parameterized subspace rotation + intrinsic-coordinate compression).
+  keywords: Disentanglement
+  paper: https://openreview.net/forum?id=QE9b2nOWi2
+  code:
+
+- title: Disentangling Rotation and Translation from SE(3)-Equivariant Features
+  where: The 19th European Conference on Computer Vision (ECCV 2026)
+  image: assets/img/publication/heejun_drts.jpg
+  abstract: >
+    3D shape assembly requires predicting 3D pose by estimating
+    rotation and translation separately to align objects or fractures. For 3D
+    pose prediction, prior works utilize the entangled features that capture
+    3D pose information well, but this mixed representation impedes generalization. To address this problem, we propose the SOT encoder that
+    disentangles 3D pose into an SO(3)-equivariant (rotation) feature and aT (3)-equivariant (translation) feature. The SOT encoder consists of two
+    branches: 1) a rotation branch that suppresses translation by projecting features onto the translation null space, and 2) a translation branch
+    that suppresses rotation by translation loss and directly subtracts theSO(3)-equivariant representation from its SE(3)-equivariant counterpart. Across a variety of assembly models and diverse datasets, the SOT
+    encoder consistently demonstrates improved generalization performance
+    in 3D shape assembly. Furthermore, in-depth analyses indicate that the
+    disentangled features show improved equivariant behavior with respect
+    to the target factor while exhibiting invariant behavior with respect to
+    the other. These results indicate that explicitly encouraging factor disentanglement is a straightforward and effective approach for 3D shape
+    assembly. The code is available at https://github.com/maroo-sky/SOT.
+  question: How can rotation and translation be disentangled from SE(3)-equivariant features to improve generalization in 3D shape assembly?
+  idea: Explicitly separate pose features by suppressing translation in the rotation branch and rotation in the translation branch.
+  dataset: 2BY2, Breaking Bad, ShapeNet.
+  method: SOT Encoder (RETI-VN-based rotation branch + translation supervision and SO(3)-feature subtraction-based translation branch).
+  keywords: Disentanglement
+  paper: https://openreview.net/forum?id=PuCtuvgf6M
+  code:
+
+- title: The Impact of Enforcing Representational Consistency of Identical Transformations for Disentangled Representation
+  where: Transactions on Machine Learning Research
+  image: assets/img/publication/heejun_rcit.jpg
+  abstract: >
+    Recent symmetry-based approaches in Variational Autoencoders (VAEs) have advanced
+    disentanglement learning and compositional generalization. However, existing methods can
+    encode identical semantic transformations differently depending on the specific sample pairs,
+    which reduce the representational consistency of identical transformations. In this paper, we
+    analyze how three commonly used symmetry parameterization families in prior work, namely
+    (1) matrix-exponential parameterizations over the general linear group GL(n), (2) vectoradditive actions in latent space, and (3) surjective mappings from latent vectors to the unit
+    circle, can make it difficult to represent identical transformations consistently in dimensionwise disentangled latent spaces. To address this issue, we propose a framework that maps
+    latent vectors to a bijective cyclic representation on the unit circle via the Cayley transform,
+    together with a fixed-grid codebook regularization. We study this problem in a controlled
+    setting and develop practical weakly supervised and supervised variants. Experiments
+    on disentanglement benchmarks and compositional generalization tasks show that the
+    proposed framework yields improved disentanglement performance and strong compositional
+    generalization under supervised settings, with the stronger-supervision variants providing
+    empirical reference points for the representational capacity of the framework. Overall, our
+    results suggest that consistent representation of identical transformations is a useful design
+    principle for improving disentanglement and generalization performance in the considered
+    setting. The code is available at https://github.com/GIST-IRR/RCIT.
+  question: How can identical semantic transformations be represented consistently across different sample pairs to improve disentanglement and compositional generalization?
+  idea: Encode each cyclic factor bijectively on the unit circle and enforce sample-independent latent transformations using a fixed-grid codebook.
+  dataset: dSprites, 3D Shapes, MPI3D.
+  method: CTFG (Cayley-transform-based cyclic representation + fixed-grid regularization + canonical and relative consistency losses).
+  keywords: Disentanglement
+  paper: https://openreview.net/forum?id=VjbBxj4aWb
+  code:
+
 - title: 'Multiple Invertible and Equivariant Transformation for Disentanglement in VAEs'
   where: The 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026)
   image: assets/img/publication/heejun_miet.jpg
@@ -21,7 +99,7 @@
   dataset: dSprites, 3D Shapes, 3D Cars
   method: MIE-transformation (Symmetric Matrix Exponential IE-transformation + Exponential Family Conversion + Multiple Unit Integration)
   keywords: Disentanglement, Variational AutoEncoder, Equivariance, Invertibility, Matrix Exponential, Exponential Family, Inductive Bias
-  paper: https://openreview.net/forum?id=9ts90B3xUvP
+  paper: https://openreview.net/forum?id=IYZhiqul7Z
   code:
 
 
