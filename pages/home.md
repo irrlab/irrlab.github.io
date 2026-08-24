@@ -34,6 +34,7 @@ If you want to join in, please send an email (kangil dot kim dot 01 at gmail.com
 
 ## News
 <div>
+26.08.24: Congratulation! accepted EMNLP 2026 "Pattern Over-Generalization of Knowledge Graph Embedding" <br/>
 26.08.05: Congratulation! accepted paper by TMLR, "The Impact of Enforcing Representational Consistency of Identical Transformations for Disentangled Representation" <br/>
 26.06.29: Congratulation! ECCV 2026 accepance "Disentangling Rotation and Translation from SE(3)-Equivariant Features for Shape Assembly" <br/>
 26.05.07: Congratulation! ICML 2026 Regular Paper Acceptance "Factor-Wise Homogeneity of Slot-Attention for Continual Object-Centric Learning" <br/>
